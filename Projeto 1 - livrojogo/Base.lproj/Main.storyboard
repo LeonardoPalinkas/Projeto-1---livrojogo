@@ -26,7 +26,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZj-hJ-D2K">
                                 <rect key="frame" x="136" y="828" width="143" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="bv1-wM-iCx" kind="show" id="lAz-4c-xyM"/>
@@ -76,23 +76,23 @@
                                     <constraint firstAttribute="width" secondItem="VCY-8f-I0e" secondAttribute="height" multiplier="414:605" id="Y4r-vr-tsP"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f71-cg-LYq">
-                                <rect key="frame" x="20" y="828" width="149" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f71-cg-LYq">
+                                <rect key="frame" x="20" y="828" width="126" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Examinar Rochas"/>
                                 <connections>
                                     <segue destination="aeu-0W-IPQ" kind="show" id="j8T-QN-H9C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIe-5k-ZAr">
-                                <rect key="frame" x="244" y="828" width="150" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <rect key="frame" x="267" y="832" width="127" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Examinar Plantas"/>
                                 <connections>
                                     <segue destination="2eR-MK-FVz" kind="show" id="Sb0-hq-VnP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-6l-UUt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-6l-UUt">
                                 <rect key="frame" x="20" y="625" width="374" height="183"/>
                                 <string key="text">Descendo da nave você se depara com um lindo e exuberante planeta, ele tem muitas formas de vida, o ar é limpo e é incrivelmente leve, uma neblina azulada paira no ar enquanto você começa a organizar seus equipamentos e se prepara pra recolher amostras. 
 
@@ -139,7 +139,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Id-qg-lsF">
                                 <rect key="frame" x="136" y="827.5" width="143" height="34.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="cej-dc-8TO" kind="show" id="Ot1-gV-0GJ"/>
@@ -203,16 +203,16 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9I-eT-ZB2">
-                                <rect key="frame" x="20" y="828" width="118" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <rect key="frame" x="20" y="832" width="100" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Aproximar-se"/>
                                 <connections>
                                     <segue destination="Hrg-qf-jqt" kind="show" id="GI2-lP-57F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T58-G2-Z6O">
-                                <rect key="frame" x="235" y="828" width="159" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <rect key="frame" x="259" y="828" width="135" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Ignorar os animais"/>
                                 <connections>
                                     <segue destination="4sJ-QR-Ohh" kind="show" id="MRT-vW-Ez4"/>
@@ -254,7 +254,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                     <constraint firstAttribute="width" secondItem="hI0-tb-Vn3" secondAttribute="height" multiplier="414:605" id="QAs-Zr-mX6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
                                 <rect key="frame" x="20" y="625" width="374" height="183"/>
                                 <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca Mae esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
 
@@ -263,9 +263,9 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB1-Ii-OEM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB1-Ii-OEM">
                                 <rect key="frame" x="135" y="828" width="143" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="7AX-gg-dVT" kind="show" id="DZu-bh-qZ4"/>
@@ -300,41 +300,56 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.5"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjJ-6M-lpe">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjJ-6M-lpe">
+                                <rect key="frame" x="20" y="527.5" width="374" height="284.5"/>
+                                <string key="text">Você continua a seguir seu rumo, ja esta a algumas horas processando dados e recolhendo amostras quando, ao subir uma planície você se depara com novos seres, porem esses são bípedes e parecem estar com lanças primitivas, algumas cestas com frutas e tábuas com uma especie de carne. 
+
+“…entrada X-013 AB0566, dia um, acabo de localizar seres aparentemente inteligentes, eles estão recolhendo alimentos e recursos… aparentemente estão em uma fase tribal de evolução…”
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-8a-Ewo">
-                                <rect key="frame" x="20" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-8a-Ewo">
+                                <rect key="frame" x="20" y="832" width="105" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Dar meia volta"/>
                                 <connections>
                                     <segue destination="4NA-Yj-3h6" kind="show" id="pJO-bV-BQH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-Gi-svJ">
-                                <rect key="frame" x="234" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-Gi-svJ">
+                                <rect key="frame" x="256" y="832" width="138" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Contactar os seres"/>
                                 <connections>
                                     <segue destination="RUD-XQ-foB" kind="show" id="w1m-7m-MAw"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sgg-8a-Ewo" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="20" id="2v5-xF-v3d"/>
+                            <constraint firstItem="Sgg-8a-Ewo" firstAttribute="bottom" secondItem="szE-F2-2Fs" secondAttribute="bottom" id="GAI-gn-r6Z"/>
+                            <constraint firstItem="yjJ-6M-lpe" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="20" id="Hbd-Rk-8pZ"/>
+                            <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="yjJ-6M-lpe" secondAttribute="trailing" constant="20" id="Jwp-Xd-xpo"/>
+                            <constraint firstItem="gIZ-Gi-svJ" firstAttribute="bottom" secondItem="szE-F2-2Fs" secondAttribute="bottom" id="L14-BV-Epq"/>
+                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" id="Mbh-y2-Iln"/>
+                            <constraint firstItem="yjJ-6M-lpe" firstAttribute="top" secondItem="Hz6-6J-OO1" secondAttribute="bottom" constant="20" id="V4B-4c-PuE"/>
+                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="trailing" secondItem="szE-F2-2Fs" secondAttribute="trailing" id="pKG-Kq-usc"/>
+                            <constraint firstItem="Sgg-8a-Ewo" firstAttribute="top" secondItem="yjJ-6M-lpe" secondAttribute="bottom" constant="20" id="war-Y5-xFf"/>
+                            <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="gIZ-Gi-svJ" secondAttribute="trailing" constant="20" id="x4I-hy-VwQ"/>
+                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="top" secondItem="ay2-2j-w7g" secondAttribute="top" id="xpd-gd-HJb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="szE-F2-2Fs"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0fH-eX-FO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4126" y="139"/>
+            <point key="canvasLocation" x="4124.6376811594209" y="138.61607142857142"/>
         </scene>
         <!--Interagir Alienigenas View Controller-->
         <scene sceneID="m9q-e4-8Ji">
@@ -1243,7 +1258,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                     <constraint firstAttribute="width" secondItem="Mlo-vi-wdy" secondAttribute="height" multiplier="23:37" id="IeO-P9-dhl"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yga-3F-vv7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yga-3F-vv7">
                                 <rect key="frame" x="20" y="686" width="374" height="122"/>
                                 <string key="text">Você da as costas para aquelas criaturas e volta a fazer deus estudos e a examinar o ambiente.
 
@@ -1252,9 +1267,9 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-FP-yDY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-FP-yDY">
                                 <rect key="frame" x="135" y="828" width="143" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="7AX-gg-dVT" kind="show" id="HV8-CB-rYC"/>
@@ -1297,7 +1312,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sJ-iW-F2h">
                                 <rect key="frame" x="135" y="827.5" width="143" height="34.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="cej-dc-8TO" kind="show" id="FNb-jy-0Fm"/>
@@ -1338,8 +1353,8 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="7bT-jN-g2W"/>
-        <segue reference="HV8-CB-rYC"/>
-        <segue reference="Ot1-gV-0GJ"/>
+        <segue reference="DZu-bh-qZ4"/>
+        <segue reference="FNb-jy-0Fm"/>
         <segue reference="7eR-9K-wXR"/>
     </inferredMetricsTieBreakers>
 </document>
