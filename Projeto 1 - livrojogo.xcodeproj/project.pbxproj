@@ -14,6 +14,25 @@
 		D43D841322733FB700843AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43D841122733FB700843AE6 /* LaunchScreen.storyboard */; };
 		D43D841E22733FB700843AE6 /* Projeto_1___livrojogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D841D22733FB700843AE6 /* Projeto_1___livrojogoTests.swift */; };
 		D43D842922733FB700843AE6 /* Projeto_1___livrojogoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D842822733FB700843AE6 /* Projeto_1___livrojogoUITests.swift */; };
+		D43D84392273435C00843AE6 /* ExaminarRochasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84382273435C00843AE6 /* ExaminarRochasViewController.swift */; };
+		D43D843B227346AC00843AE6 /* ExaminarPlantasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D843A227346AC00843AE6 /* ExaminarPlantasViewController.swift */; };
+		D43D843D22734C8D00843AE6 /* animaisAlienigenasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D843C22734C8C00843AE6 /* animaisAlienigenasViewController.swift */; };
+		D43D843F22734D3F00843AE6 /* ignorarAnimaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D843E22734D3F00843AE6 /* ignorarAnimaisViewController.swift */; };
+		D43D844122734D6A00843AE6 /* interagirAnimaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844022734D6A00843AE6 /* interagirAnimaisViewController.swift */; };
+		D43D844322734F3700843AE6 /* AlienigenasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844222734F3700843AE6 /* AlienigenasViewController.swift */; };
+		D43D844522734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844422734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift */; };
+		D43D84472273506900843AE6 /* ContinuarPesquisaUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84462273506900843AE6 /* ContinuarPesquisaUmViewController.swift */; };
+		D43D84492273509900843AE6 /* ContinuarPesquisaDoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84482273509900843AE6 /* ContinuarPesquisaDoisViewController.swift */; };
+		D43D844B227350B500843AE6 /* FinalUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844A227350B500843AE6 /* FinalUmViewController.swift */; };
+		D43D844D2273520E00843AE6 /* DescendoDaNaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844C2273520E00843AE6 /* DescendoDaNaveViewController.swift */; };
+		D43D84502273577A00843AE6 /* InteragirAlienigenasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D844F2273577A00843AE6 /* InteragirAlienigenasViewController.swift */; };
+		D43D84522273579F00843AE6 /* AlienigenasSacamArmasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84512273579F00843AE6 /* AlienigenasSacamArmasViewController.swift */; };
+		D43D84542273580000843AE6 /* AtirarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84532273580000843AE6 /* AtirarViewController.swift */; };
+		D43D84562273580F00843AE6 /* AbaixarArmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84552273580F00843AE6 /* AbaixarArmaViewController.swift */; };
+		D43D84582273584400843AE6 /* RetornarParaNaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84572273584400843AE6 /* RetornarParaNaveViewController.swift */; };
+		D43D845A2273586B00843AE6 /* PerseguirAlienigenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */; };
+		D43D845C2273588F00843AE6 /* MatarTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */; };
+		D43D845E227358B400843AE6 /* FinalDoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D845D227358B400843AE6 /* FinalDoisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +66,25 @@
 		D43D842422733FB700843AE6 /* Projeto 1 - livrojogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto 1 - livrojogoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43D842822733FB700843AE6 /* Projeto_1___livrojogoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Projeto_1___livrojogoUITests.swift"; sourceTree = "<group>"; };
 		D43D842A22733FB800843AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43D84382273435C00843AE6 /* ExaminarRochasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminarRochasViewController.swift; sourceTree = "<group>"; };
+		D43D843A227346AC00843AE6 /* ExaminarPlantasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminarPlantasViewController.swift; sourceTree = "<group>"; };
+		D43D843C22734C8C00843AE6 /* animaisAlienigenasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animaisAlienigenasViewController.swift; sourceTree = "<group>"; };
+		D43D843E22734D3F00843AE6 /* ignorarAnimaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ignorarAnimaisViewController.swift; sourceTree = "<group>"; };
+		D43D844022734D6A00843AE6 /* interagirAnimaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interagirAnimaisViewController.swift; sourceTree = "<group>"; };
+		D43D844222734F3700843AE6 /* AlienigenasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienigenasViewController.swift; sourceTree = "<group>"; };
+		D43D844422734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuarMissaoSemIntergairViewController.swift; sourceTree = "<group>"; };
+		D43D84462273506900843AE6 /* ContinuarPesquisaUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuarPesquisaUmViewController.swift; sourceTree = "<group>"; };
+		D43D84482273509900843AE6 /* ContinuarPesquisaDoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuarPesquisaDoisViewController.swift; sourceTree = "<group>"; };
+		D43D844A227350B500843AE6 /* FinalUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUmViewController.swift; sourceTree = "<group>"; };
+		D43D844C2273520E00843AE6 /* DescendoDaNaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescendoDaNaveViewController.swift; sourceTree = "<group>"; };
+		D43D844F2273577A00843AE6 /* InteragirAlienigenasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteragirAlienigenasViewController.swift; sourceTree = "<group>"; };
+		D43D84512273579F00843AE6 /* AlienigenasSacamArmasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienigenasSacamArmasViewController.swift; sourceTree = "<group>"; };
+		D43D84532273580000843AE6 /* AtirarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtirarViewController.swift; sourceTree = "<group>"; };
+		D43D84552273580F00843AE6 /* AbaixarArmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbaixarArmaViewController.swift; sourceTree = "<group>"; };
+		D43D84572273584400843AE6 /* RetornarParaNaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetornarParaNaveViewController.swift; sourceTree = "<group>"; };
+		D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseguirAlienigenaViewController.swift; sourceTree = "<group>"; };
+		D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatarTodosViewController.swift; sourceTree = "<group>"; };
+		D43D845D227358B400843AE6 /* FinalDoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalDoisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				D43D840822733FB600843AE6 /* AppDelegate.swift */,
-				D43D840A22733FB600843AE6 /* ViewController.swift */,
+				D43D844E227352BB00843AE6 /* ViewControllers */,
 				D43D840C22733FB600843AE6 /* Main.storyboard */,
 				D43D840F22733FB700843AE6 /* Assets.xcassets */,
 				D43D841122733FB700843AE6 /* LaunchScreen.storyboard */,
@@ -123,6 +161,33 @@
 				D43D842A22733FB800843AE6 /* Info.plist */,
 			);
 			path = "Projeto 1 - livrojogoUITests";
+			sourceTree = "<group>";
+		};
+		D43D844E227352BB00843AE6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D43D840A22733FB600843AE6 /* ViewController.swift */,
+				D43D844C2273520E00843AE6 /* DescendoDaNaveViewController.swift */,
+				D43D843A227346AC00843AE6 /* ExaminarPlantasViewController.swift */,
+				D43D84382273435C00843AE6 /* ExaminarRochasViewController.swift */,
+				D43D843E22734D3F00843AE6 /* ignorarAnimaisViewController.swift */,
+				D43D844022734D6A00843AE6 /* interagirAnimaisViewController.swift */,
+				D43D843C22734C8C00843AE6 /* animaisAlienigenasViewController.swift */,
+				D43D844222734F3700843AE6 /* AlienigenasViewController.swift */,
+				D43D844422734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift */,
+				D43D84462273506900843AE6 /* ContinuarPesquisaUmViewController.swift */,
+				D43D84482273509900843AE6 /* ContinuarPesquisaDoisViewController.swift */,
+				D43D844A227350B500843AE6 /* FinalUmViewController.swift */,
+				D43D844F2273577A00843AE6 /* InteragirAlienigenasViewController.swift */,
+				D43D84512273579F00843AE6 /* AlienigenasSacamArmasViewController.swift */,
+				D43D84532273580000843AE6 /* AtirarViewController.swift */,
+				D43D84552273580F00843AE6 /* AbaixarArmaViewController.swift */,
+				D43D84572273584400843AE6 /* RetornarParaNaveViewController.swift */,
+				D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */,
+				D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */,
+				D43D845D227358B400843AE6 /* FinalDoisViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +321,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43D844122734D6A00843AE6 /* interagirAnimaisViewController.swift in Sources */,
+				D43D844322734F3700843AE6 /* AlienigenasViewController.swift in Sources */,
+				D43D845C2273588F00843AE6 /* MatarTodosViewController.swift in Sources */,
 				D43D840B22733FB600843AE6 /* ViewController.swift in Sources */,
+				D43D84522273579F00843AE6 /* AlienigenasSacamArmasViewController.swift in Sources */,
+				D43D84562273580F00843AE6 /* AbaixarArmaViewController.swift in Sources */,
+				D43D84502273577A00843AE6 /* InteragirAlienigenasViewController.swift in Sources */,
+				D43D843B227346AC00843AE6 /* ExaminarPlantasViewController.swift in Sources */,
+				D43D843F22734D3F00843AE6 /* ignorarAnimaisViewController.swift in Sources */,
+				D43D84542273580000843AE6 /* AtirarViewController.swift in Sources */,
+				D43D84492273509900843AE6 /* ContinuarPesquisaDoisViewController.swift in Sources */,
+				D43D84472273506900843AE6 /* ContinuarPesquisaUmViewController.swift in Sources */,
 				D43D840922733FB600843AE6 /* AppDelegate.swift in Sources */,
+				D43D844522734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift in Sources */,
+				D43D845E227358B400843AE6 /* FinalDoisViewController.swift in Sources */,
+				D43D844D2273520E00843AE6 /* DescendoDaNaveViewController.swift in Sources */,
+				D43D844B227350B500843AE6 /* FinalUmViewController.swift in Sources */,
+				D43D845A2273586B00843AE6 /* PerseguirAlienigenaViewController.swift in Sources */,
+				D43D84582273584400843AE6 /* RetornarParaNaveViewController.swift in Sources */,
+				D43D84392273435C00843AE6 /* ExaminarRochasViewController.swift in Sources */,
+				D43D843D22734C8D00843AE6 /* animaisAlienigenasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
