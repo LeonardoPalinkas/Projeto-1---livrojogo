@@ -131,7 +131,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Id-qg-lsF">
                                 <rect key="frame" x="136" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="cej-dc-8TO" kind="show" id="Ot1-gV-0GJ"/>
                                 </connections>
@@ -241,7 +241,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
                                 <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
-                                <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca Mae esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
+                                <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca mãe esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
 
 “Oi pequeninos! Tudo bem com vocês hahaha”</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -251,7 +251,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB1-Ii-OEM">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="7AX-gg-dVT" kind="show" id="DZu-bh-qZ4"/>
                                 </connections>
@@ -357,7 +357,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwu-FN-bYG">
                                 <rect key="frame" x="136" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="62x-a2-1eP" kind="show" id="wl0-60-0JF"/>
                                 </connections>
@@ -451,29 +451,38 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-kA-LoD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-kA-LoD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
+                                <rect key="frame" x="20" y="649.66666666666663" width="374" height="162.33333333333337"/>
                                 <string key="text">Você não vai matar criaturas primitivas com uma arma laser, uma das poucas coisas que você ainda pode se orgulhar é de sua sanidade. Então decide abaixar a arma, ao fazer isso você percebe que aparentemente o líder daquele grupo manda os seus companheiros abaixarem as lanças também. Eles começam a falar e você decide ligar seu tradutor universal. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsP-x8-oNh">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsP-x8-oNh">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="2NU-L8-J8L" kind="show" id="9cv-z1-64U"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vjT-kA-LoD" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" id="8K4-QA-pZb"/>
+                            <constraint firstItem="vjT-kA-LoD" firstAttribute="trailing" secondItem="qdw-sz-v9T" secondAttribute="trailing" id="DW1-2e-9UF"/>
+                            <constraint firstItem="ZW9-LU-UF5" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" constant="20" id="QKC-UK-nSh"/>
+                            <constraint firstItem="qdw-sz-v9T" firstAttribute="trailing" secondItem="ZW9-LU-UF5" secondAttribute="trailing" constant="20" id="XoL-IU-zLE"/>
+                            <constraint firstItem="rsP-x8-oNh" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" constant="135" id="frE-V7-I9E"/>
+                            <constraint firstItem="vjT-kA-LoD" firstAttribute="top" secondItem="J7d-f9-Go9" secondAttribute="top" id="jnp-Qi-pWa"/>
+                            <constraint firstItem="ZW9-LU-UF5" firstAttribute="top" secondItem="vjT-kA-LoD" secondAttribute="bottom" constant="20" id="mt0-q7-xcZ"/>
+                            <constraint firstItem="rsP-x8-oNh" firstAttribute="bottom" secondItem="qdw-sz-v9T" secondAttribute="bottom" id="oHR-nR-Dfg"/>
+                            <constraint firstItem="qdw-sz-v9T" firstAttribute="trailing" secondItem="rsP-x8-oNh" secondAttribute="trailing" constant="136" id="p12-oh-edb"/>
+                            <constraint firstItem="rsP-x8-oNh" firstAttribute="top" secondItem="ZW9-LU-UF5" secondAttribute="bottom" constant="20" id="qNb-rd-aMB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qdw-sz-v9T"/>
                     </view>
                 </viewController>
@@ -489,33 +498,48 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-FV-2r2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-FV-2r2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="548.33333333333337"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTJ-Pl-ZG0">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTJ-Pl-ZG0">
+                                <rect key="frame" x="20" y="568.33333333333337" width="374" height="243.66666666666663"/>
+                                <mutableString key="text">Eles estão querendo saber quem você é e porquê é tão diferente deles. Você o mais calmo possível e fazendo o menos movimento possível, fala: 
+
+“ Ola pessoal! Tudo bem? Então, eu sou um explorador de uma terra muito muito distante, estou aqui para estudar” 
+Você ainda estranha quando fala com o tradutor universal, pois parece ser outra pessoa falando.
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnu-uu-Zgv">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnu-uu-Zgv">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="er8-to-ipS" kind="show" id="uw0-wH-THz"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fcv-FV-2r2" firstAttribute="trailing" secondItem="Vad-hd-3G5" secondAttribute="trailing" id="2Aq-WJ-Y3b"/>
+                            <constraint firstItem="Vad-hd-3G5" firstAttribute="trailing" secondItem="UTJ-Pl-ZG0" secondAttribute="trailing" constant="20" id="5SZ-ln-HqZ"/>
+                            <constraint firstItem="Vad-hd-3G5" firstAttribute="trailing" secondItem="Mnu-uu-Zgv" secondAttribute="trailing" constant="136" id="6s0-Ok-9Ns"/>
+                            <constraint firstItem="UTJ-Pl-ZG0" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" constant="20" id="HRi-48-oDs"/>
+                            <constraint firstItem="UTJ-Pl-ZG0" firstAttribute="top" secondItem="fcv-FV-2r2" secondAttribute="bottom" constant="20" id="KYa-yp-W0b"/>
+                            <constraint firstItem="Mnu-uu-Zgv" firstAttribute="bottom" secondItem="Vad-hd-3G5" secondAttribute="bottom" id="MER-Ao-Yx2"/>
+                            <constraint firstItem="fcv-FV-2r2" firstAttribute="top" secondItem="KkL-jB-kls" secondAttribute="top" id="OYf-Nk-Yav"/>
+                            <constraint firstItem="Mnu-uu-Zgv" firstAttribute="top" secondItem="UTJ-Pl-ZG0" secondAttribute="bottom" constant="20" id="PuX-Re-cdL"/>
+                            <constraint firstItem="fcv-FV-2r2" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" id="mb0-90-SCw"/>
+                            <constraint firstItem="Mnu-uu-Zgv" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" constant="135" id="r5M-5B-weD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Vad-hd-3G5"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKh-1s-Pa2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6393" y="1709"/>
+            <point key="canvasLocation" x="6392.753623188406" y="1708.9285714285713"/>
         </scene>
         <!--Conversa Aliens View Controller-->
         <scene sceneID="isH-3G-8zg">
@@ -525,41 +549,54 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Pg-GAl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Pg-GAl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4D-Er-B20">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4D-Er-B20">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Eles parecem estar muito curiosos, são seres extremamente pacíficos. Eles te saúdam e começam a fazer varias perguntas. Cada vez mais os seres que estavam mais atrás vem se aproximando, então o líder decide perguntar para você se não gostaria de ir até a vila deles. 
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o23-2X-L6k">
-                                <rect key="frame" x="20" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o23-2X-L6k">
+                                <rect key="frame" x="40" y="832" width="171" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Agradecer mas recusar"/>
                                 <connections>
                                     <segue destination="GTe-yn-gV1" kind="show" id="gw6-IZ-8i8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iP-Nv-17o">
-                                <rect key="frame" x="234" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iP-Nv-17o">
+                                <rect key="frame" x="251" y="832" width="123" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Aceitar o convite"/>
                                 <connections>
                                     <segue destination="3bE-xg-zxy" kind="show" id="gcF-jH-oGX"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="j7X-yQ-XrQ" firstAttribute="trailing" secondItem="3iP-Nv-17o" secondAttribute="trailing" constant="40" id="0bg-TE-QGO"/>
+                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="top" secondItem="7Hs-mf-UWN" secondAttribute="top" id="3fz-v5-Z6g"/>
+                            <constraint firstItem="j7X-yQ-XrQ" firstAttribute="trailing" secondItem="C4D-Er-B20" secondAttribute="trailing" constant="20" id="DPU-mw-t6h"/>
+                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="trailing" secondItem="j7X-yQ-XrQ" secondAttribute="trailing" id="DVs-xT-Z2Q"/>
+                            <constraint firstItem="o23-2X-L6k" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" constant="40" id="OtX-CQ-t7J"/>
+                            <constraint firstItem="3iP-Nv-17o" firstAttribute="bottom" secondItem="j7X-yQ-XrQ" secondAttribute="bottom" id="cSy-wa-c2C"/>
+                            <constraint firstItem="o23-2X-L6k" firstAttribute="top" secondItem="C4D-Er-B20" secondAttribute="bottom" constant="20" id="dAS-Fw-kkL"/>
+                            <constraint firstItem="C4D-Er-B20" firstAttribute="top" secondItem="mQQ-Pg-GAl" secondAttribute="bottom" constant="20" id="hlW-Ac-acx"/>
+                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" id="pbF-g2-yHo"/>
+                            <constraint firstItem="o23-2X-L6k" firstAttribute="bottom" secondItem="j7X-yQ-XrQ" secondAttribute="bottom" id="pmG-Cw-JgW"/>
+                            <constraint firstItem="C4D-Er-B20" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" constant="20" id="qot-ng-QZG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="j7X-yQ-XrQ"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zw-Is-0ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7130" y="1709"/>
+            <point key="canvasLocation" x="7128.985507246377" y="1708.9285714285713"/>
         </scene>
         <!--Aceitar Convite View Controller-->
         <scene sceneID="2fu-jX-xxf">
@@ -569,33 +606,45 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dk-Xl-M3Y">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dk-Xl-M3Y">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Provavelmente você ja será punido pelo contato então da de ombros e decide segui-los até a vila, agradece muito o convite e começa a seguir o líder, bem a frente do grupo. Agora prestando mais atenção você vê o quão lindo é aquele planeta
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rD-tD-Hza">
-                                <rect key="frame" x="136" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rD-tD-Hza">
+                                <rect key="frame" x="136" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="64H-AG-Zdt" kind="show" id="EuW-uU-vVs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dCc-qE-J9G" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" id="3RT-hc-cxa"/>
+                            <constraint firstItem="S9i-Ro-zGh" firstAttribute="trailing" secondItem="8Dk-Xl-M3Y" secondAttribute="trailing" constant="20" id="671-eG-udV"/>
+                            <constraint firstItem="dCc-qE-J9G" firstAttribute="top" secondItem="0XR-p4-z8t" secondAttribute="top" id="Gf5-5i-uoM"/>
+                            <constraint firstItem="3rD-tD-Hza" firstAttribute="bottom" secondItem="S9i-Ro-zGh" secondAttribute="bottom" id="eAO-jk-SJ6"/>
+                            <constraint firstItem="3rD-tD-Hza" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" constant="136" id="ga2-cX-9Iu"/>
+                            <constraint firstItem="3rD-tD-Hza" firstAttribute="top" secondItem="8Dk-Xl-M3Y" secondAttribute="bottom" constant="20" id="pnu-C4-Rc7"/>
+                            <constraint firstItem="8Dk-Xl-M3Y" firstAttribute="top" secondItem="dCc-qE-J9G" secondAttribute="bottom" constant="20" id="suu-x0-sOK"/>
+                            <constraint firstItem="8Dk-Xl-M3Y" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" constant="20" id="uQl-EE-eHh"/>
+                            <constraint firstItem="S9i-Ro-zGh" firstAttribute="trailing" secondItem="3rD-tD-Hza" secondAttribute="trailing" constant="135" id="y4g-Kg-OhJ"/>
+                            <constraint firstItem="dCc-qE-J9G" firstAttribute="trailing" secondItem="S9i-Ro-zGh" secondAttribute="trailing" id="ye2-g7-do3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="S9i-Ro-zGh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9L-ce-fXt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7900" y="2083"/>
+            <point key="canvasLocation" x="7900.0000000000009" y="2082.5892857142858"/>
         </scene>
         <!--Vila View Controller-->
         <scene sceneID="aby-Dl-fOj">
@@ -605,33 +654,44 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrV-br-Vqb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OrV-br-Vqb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otD-wh-IiP">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otD-wh-IiP">
+                                <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <mutableString key="text">Ao chegar na vila, o chefe deles vem te receber com muita amizade, a vida é bem grande, todas as estruturas são mescladas com as grandes rochas que saem do solo, á vida é muito linda, você nunca viu tanta cor em algo, quando vivia na Terra você só via cinza, não espaço, a maior parte de tudo é preto… aquilo tudo é a cosia mais linda que você ja viu!   Você decide então passar um tempo na vila, aprendendo os costumes daquele povo, conhecendo sua cultura e se apaixonando por aqueles seres.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TG1-Ek-gne">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TG1-Ek-gne">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="MRW-11-Ih6" kind="show" id="6GD-Gz-kXw"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OrV-br-Vqb" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" id="0jS-OR-pVJ"/>
+                            <constraint firstItem="OrV-br-Vqb" firstAttribute="trailing" secondItem="j5q-C1-wWp" secondAttribute="trailing" id="3BM-bl-DFP"/>
+                            <constraint firstItem="OrV-br-Vqb" firstAttribute="top" secondItem="ZQU-Zh-tue" secondAttribute="top" id="41U-bg-l7p"/>
+                            <constraint firstItem="j5q-C1-wWp" firstAttribute="trailing" secondItem="TG1-Ek-gne" secondAttribute="trailing" constant="136" id="4zT-zS-jh5"/>
+                            <constraint firstItem="TG1-Ek-gne" firstAttribute="top" secondItem="otD-wh-IiP" secondAttribute="bottom" constant="20" id="AEe-B3-SYG"/>
+                            <constraint firstItem="otD-wh-IiP" firstAttribute="top" secondItem="OrV-br-Vqb" secondAttribute="bottom" constant="20" id="MS4-7Q-Dye"/>
+                            <constraint firstItem="TG1-Ek-gne" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" constant="135" id="dd1-6r-kep"/>
+                            <constraint firstItem="otD-wh-IiP" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" constant="20" id="dsu-3g-6in"/>
+                            <constraint firstItem="j5q-C1-wWp" firstAttribute="trailing" secondItem="otD-wh-IiP" secondAttribute="trailing" constant="20" id="nLG-6O-47W"/>
+                            <constraint firstItem="TG1-Ek-gne" firstAttribute="bottom" secondItem="j5q-C1-wWp" secondAttribute="bottom" id="pEj-nl-ZZJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="j5q-C1-wWp"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oon-J6-7mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7900" y="2817"/>
+            <point key="canvasLocation" x="7900.0000000000009" y="2816.5178571428569"/>
         </scene>
         <!--Relatorio Falso View Controller-->
         <scene sceneID="irn-2C-Mpn">
@@ -641,33 +701,44 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2D-3T-CoU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2D-3T-CoU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-Rq-LWX">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-Rq-LWX">
+                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <string key="text">Todos esse tempo que você passou com os seres te fez repensar muito da sua vida e sobre tudo o que você sempre fez para aquele império ridículo… então você decide mandar um falso relatório, dizendo que não havia nada de útil naquele planeta e por fim, nada do que fazia antes faz sentido, então você decide debandar do império e por consequência se torna um exilado. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjO-5q-NHB">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjO-5q-NHB">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="FeL-dA-axy" kind="show" id="yfs-QE-y0S"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3MB-Vq-Uys" firstAttribute="trailing" secondItem="MjO-5q-NHB" secondAttribute="trailing" constant="136" id="0Kn-sv-f7l"/>
+                            <constraint firstItem="e2D-3T-CoU" firstAttribute="trailing" secondItem="3MB-Vq-Uys" secondAttribute="trailing" id="43J-hV-2oy"/>
+                            <constraint firstItem="e2D-3T-CoU" firstAttribute="leading" secondItem="3MB-Vq-Uys" secondAttribute="leading" id="50W-ET-Z9W"/>
+                            <constraint firstItem="3DM-Rq-LWX" firstAttribute="top" secondItem="e2D-3T-CoU" secondAttribute="bottom" constant="20" id="59O-O2-tq3"/>
+                            <constraint firstItem="3MB-Vq-Uys" firstAttribute="trailing" secondItem="3DM-Rq-LWX" secondAttribute="trailing" constant="20" id="SCs-X6-H8a"/>
+                            <constraint firstItem="e2D-3T-CoU" firstAttribute="top" secondItem="0sB-ox-x0T" secondAttribute="top" id="TG5-63-cqb"/>
+                            <constraint firstItem="MjO-5q-NHB" firstAttribute="top" secondItem="3DM-Rq-LWX" secondAttribute="bottom" constant="20" id="cjr-CP-tzY"/>
+                            <constraint firstItem="3DM-Rq-LWX" firstAttribute="leading" secondItem="3MB-Vq-Uys" secondAttribute="leading" constant="20" id="gKi-Vj-stW"/>
+                            <constraint firstItem="MjO-5q-NHB" firstAttribute="bottom" secondItem="3MB-Vq-Uys" secondAttribute="bottom" id="m93-97-gr2"/>
+                            <constraint firstItem="MjO-5q-NHB" firstAttribute="leading" secondItem="3MB-Vq-Uys" secondAttribute="leading" constant="135" id="xPo-oL-Axq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3MB-Vq-Uys"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3U-P3-R7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7900" y="3542"/>
+            <point key="canvasLocation" x="7900.0000000000009" y="3541.7410714285711"/>
         </scene>
         <!--Nova Vida View Controller-->
         <scene sceneID="tci-Iv-EBf">
@@ -677,33 +748,44 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ACp-Kx-CtW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ACp-Kx-CtW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="647.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-1x-ry5">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-1x-ry5">
+                                <rect key="frame" x="20" y="667.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Você nunca soube o que era paz, desde quando você se lembra, serve o império. Nunca teve família, ou um propósito. Agora você sente a vida realmente correndo pelas suas veias, vivendo naquela pequena vila alienígena.  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSg-49-fQd">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSg-49-fQd">
+                                <rect key="frame" x="135" y="830" width="143" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Jogar novamente"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="7eR-9K-wXR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qSg-49-fQd" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" constant="135" id="1lh-ie-9Xv"/>
+                            <constraint firstItem="qVd-1x-ry5" firstAttribute="top" secondItem="ACp-Kx-CtW" secondAttribute="bottom" constant="20" id="21p-d7-d9Y"/>
+                            <constraint firstItem="im8-rl-nFK" firstAttribute="trailing" secondItem="qSg-49-fQd" secondAttribute="trailing" constant="136" id="G32-Mj-n1O"/>
+                            <constraint firstItem="qSg-49-fQd" firstAttribute="top" secondItem="qVd-1x-ry5" secondAttribute="bottom" constant="20" id="Ho1-bc-xZd"/>
+                            <constraint firstItem="qSg-49-fQd" firstAttribute="bottom" secondItem="im8-rl-nFK" secondAttribute="bottom" id="PDa-dG-bRh"/>
+                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" id="Pig-1M-mYg"/>
+                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="trailing" secondItem="im8-rl-nFK" secondAttribute="trailing" id="QSD-Ey-46c"/>
+                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="top" secondItem="Pwq-2o-zqa" secondAttribute="top" id="a5D-dk-WNy"/>
+                            <constraint firstItem="qVd-1x-ry5" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" constant="20" id="eqH-nI-Kl3"/>
+                            <constraint firstItem="im8-rl-nFK" firstAttribute="trailing" secondItem="qVd-1x-ry5" secondAttribute="trailing" constant="20" id="nyY-s0-p2M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="im8-rl-nFK"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWo-kK-SlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7900" y="4262"/>
+            <point key="canvasLocation" x="7900.0000000000009" y="4261.6071428571431"/>
         </scene>
         <!--Agradecer View Controller-->
         <scene sceneID="QvE-gd-XIg">
@@ -1009,7 +1091,7 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeU-v3-Rtq">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="yGm-Fp-TxP" kind="show" id="3mj-pK-Igg"/>
                                 </connections>
@@ -1056,7 +1138,7 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fih-sT-Bm9">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="yoR-6y-Its" kind="show" id="T6S-s8-Mqh"/>
                                 </connections>
@@ -1150,7 +1232,7 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW4-C9-ItP">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="eSX-nL-Osz" kind="show" id="7bT-jN-g2W"/>
                                 </connections>
@@ -1392,7 +1474,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-FP-yDY">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="7AX-gg-dVT" kind="show" id="HV8-CB-rYC"/>
                                 </connections>
@@ -1432,7 +1514,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sJ-iW-F2h">
                                 <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Próximo &gt;&gt;"/>
+                                <state key="normal" title="Próxima &gt;&gt;"/>
                                 <connections>
                                     <segue destination="cej-dc-8TO" kind="show" id="FNb-jy-0Fm"/>
                                 </connections>
@@ -1473,7 +1555,7 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
     <inferredMetricsTieBreakers>
         <segue reference="7bT-jN-g2W"/>
         <segue reference="DZu-bh-qZ4"/>
-        <segue reference="Ot1-gV-0GJ"/>
+        <segue reference="FNb-jy-0Fm"/>
         <segue reference="7eR-9K-wXR"/>
     </inferredMetricsTieBreakers>
 </document>
