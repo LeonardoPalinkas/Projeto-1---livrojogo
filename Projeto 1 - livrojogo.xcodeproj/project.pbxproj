@@ -33,6 +33,18 @@
 		D43D845A2273586B00843AE6 /* PerseguirAlienigenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */; };
 		D43D845C2273588F00843AE6 /* MatarTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */; };
 		D43D845E227358B400843AE6 /* FinalDoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D845D227358B400843AE6 /* FinalDoisViewController.swift */; };
+		D43D84622276380300843AE6 /* TradutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84612276380300843AE6 /* TradutorViewController.swift */; };
+		D43D84642276385F00843AE6 /* ConversaAliensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84632276385F00843AE6 /* ConversaAliensViewController.swift */; };
+		D43D8466227638D500843AE6 /* AgradecerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D8465227638D500843AE6 /* AgradecerViewController.swift */; };
+		D43D84682276390C00843AE6 /* PresenteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84672276390C00843AE6 /* PresenteViewController.swift */; };
+		D43D846A2276394000843AE6 /* AceitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D84692276394000843AE6 /* AceitarViewController.swift */; };
+		D43D846C2276394C00843AE6 /* RecusarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D846B2276394C00843AE6 /* RecusarViewController.swift */; };
+		D43D846E2276396300843AE6 /* EremitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D846D2276396300843AE6 /* EremitaViewController.swift */; };
+		D43D84702276397600843AE6 /* SuicidioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D846F2276397600843AE6 /* SuicidioViewController.swift */; };
+		D43D8472227639DF00843AE6 /* AceitarConviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D8471227639DF00843AE6 /* AceitarConviteViewController.swift */; };
+		D43D8474227639F400843AE6 /* VilaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D8473227639F400843AE6 /* VilaViewController.swift */; };
+		D43D847622763A0500843AE6 /* RelatorioFalsoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D847522763A0500843AE6 /* RelatorioFalsoViewController.swift */; };
+		D43D847822763A1200843AE6 /* NovaVidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D847722763A1200843AE6 /* NovaVidaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +97,18 @@
 		D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseguirAlienigenaViewController.swift; sourceTree = "<group>"; };
 		D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatarTodosViewController.swift; sourceTree = "<group>"; };
 		D43D845D227358B400843AE6 /* FinalDoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalDoisViewController.swift; sourceTree = "<group>"; };
+		D43D84612276380300843AE6 /* TradutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradutorViewController.swift; sourceTree = "<group>"; };
+		D43D84632276385F00843AE6 /* ConversaAliensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaAliensViewController.swift; sourceTree = "<group>"; };
+		D43D8465227638D500843AE6 /* AgradecerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgradecerViewController.swift; sourceTree = "<group>"; };
+		D43D84672276390C00843AE6 /* PresenteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenteViewController.swift; sourceTree = "<group>"; };
+		D43D84692276394000843AE6 /* AceitarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceitarViewController.swift; sourceTree = "<group>"; };
+		D43D846B2276394C00843AE6 /* RecusarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecusarViewController.swift; sourceTree = "<group>"; };
+		D43D846D2276396300843AE6 /* EremitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EremitaViewController.swift; sourceTree = "<group>"; };
+		D43D846F2276397600843AE6 /* SuicidioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuicidioViewController.swift; sourceTree = "<group>"; };
+		D43D8471227639DF00843AE6 /* AceitarConviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceitarConviteViewController.swift; sourceTree = "<group>"; };
+		D43D8473227639F400843AE6 /* VilaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilaViewController.swift; sourceTree = "<group>"; };
+		D43D847522763A0500843AE6 /* RelatorioFalsoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatorioFalsoViewController.swift; sourceTree = "<group>"; };
+		D43D847722763A1200843AE6 /* NovaVidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaVidaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +210,18 @@
 				D43D84592273586B00843AE6 /* PerseguirAlienigenaViewController.swift */,
 				D43D845B2273588F00843AE6 /* MatarTodosViewController.swift */,
 				D43D845D227358B400843AE6 /* FinalDoisViewController.swift */,
+				D43D84612276380300843AE6 /* TradutorViewController.swift */,
+				D43D84632276385F00843AE6 /* ConversaAliensViewController.swift */,
+				D43D8465227638D500843AE6 /* AgradecerViewController.swift */,
+				D43D84672276390C00843AE6 /* PresenteViewController.swift */,
+				D43D84692276394000843AE6 /* AceitarViewController.swift */,
+				D43D846B2276394C00843AE6 /* RecusarViewController.swift */,
+				D43D846D2276396300843AE6 /* EremitaViewController.swift */,
+				D43D846F2276397600843AE6 /* SuicidioViewController.swift */,
+				D43D8471227639DF00843AE6 /* AceitarConviteViewController.swift */,
+				D43D8473227639F400843AE6 /* VilaViewController.swift */,
+				D43D847522763A0500843AE6 /* RelatorioFalsoViewController.swift */,
+				D43D847722763A1200843AE6 /* NovaVidaViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -323,24 +359,36 @@
 			files = (
 				D43D844122734D6A00843AE6 /* interagirAnimaisViewController.swift in Sources */,
 				D43D844322734F3700843AE6 /* AlienigenasViewController.swift in Sources */,
+				D43D84702276397600843AE6 /* SuicidioViewController.swift in Sources */,
 				D43D845C2273588F00843AE6 /* MatarTodosViewController.swift in Sources */,
 				D43D840B22733FB600843AE6 /* ViewController.swift in Sources */,
+				D43D8474227639F400843AE6 /* VilaViewController.swift in Sources */,
 				D43D84522273579F00843AE6 /* AlienigenasSacamArmasViewController.swift in Sources */,
 				D43D84562273580F00843AE6 /* AbaixarArmaViewController.swift in Sources */,
 				D43D84502273577A00843AE6 /* InteragirAlienigenasViewController.swift in Sources */,
+				D43D84622276380300843AE6 /* TradutorViewController.swift in Sources */,
+				D43D847622763A0500843AE6 /* RelatorioFalsoViewController.swift in Sources */,
 				D43D843B227346AC00843AE6 /* ExaminarPlantasViewController.swift in Sources */,
 				D43D843F22734D3F00843AE6 /* ignorarAnimaisViewController.swift in Sources */,
 				D43D84542273580000843AE6 /* AtirarViewController.swift in Sources */,
 				D43D84492273509900843AE6 /* ContinuarPesquisaDoisViewController.swift in Sources */,
+				D43D846E2276396300843AE6 /* EremitaViewController.swift in Sources */,
 				D43D84472273506900843AE6 /* ContinuarPesquisaUmViewController.swift in Sources */,
+				D43D8466227638D500843AE6 /* AgradecerViewController.swift in Sources */,
 				D43D840922733FB600843AE6 /* AppDelegate.swift in Sources */,
+				D43D8472227639DF00843AE6 /* AceitarConviteViewController.swift in Sources */,
 				D43D844522734FFD00843AE6 /* ContinuarMissaoSemIntergairViewController.swift in Sources */,
 				D43D845E227358B400843AE6 /* FinalDoisViewController.swift in Sources */,
+				D43D847822763A1200843AE6 /* NovaVidaViewController.swift in Sources */,
 				D43D844D2273520E00843AE6 /* DescendoDaNaveViewController.swift in Sources */,
 				D43D844B227350B500843AE6 /* FinalUmViewController.swift in Sources */,
+				D43D846C2276394C00843AE6 /* RecusarViewController.swift in Sources */,
+				D43D84642276385F00843AE6 /* ConversaAliensViewController.swift in Sources */,
 				D43D845A2273586B00843AE6 /* PerseguirAlienigenaViewController.swift in Sources */,
 				D43D84582273584400843AE6 /* RetornarParaNaveViewController.swift in Sources */,
+				D43D84682276390C00843AE6 /* PresenteViewController.swift in Sources */,
 				D43D84392273435C00843AE6 /* ExaminarRochasViewController.swift in Sources */,
+				D43D846A2276394000843AE6 /* AceitarViewController.swift in Sources */,
 				D43D843D22734C8D00843AE6 /* animaisAlienigenasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

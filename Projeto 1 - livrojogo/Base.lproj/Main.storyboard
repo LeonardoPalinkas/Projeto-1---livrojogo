@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,13 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GlU-Oj-1Vm">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="585"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="GlU-Oj-1Vm" secondAttribute="height" multiplier="46:65" id="GD7-w0-vfJ"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="589"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZj-hJ-D2K">
-                                <rect key="frame" x="136" y="828" width="143" height="34"/>
+                                <rect key="frame" x="136" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
@@ -33,8 +30,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfP-gf-iU5">
-                                <rect key="frame" x="20" y="605" width="374" height="203"/>
-                                <string key="text">Você faz parte do projeto Colonização, seu próximo alvo é o planeta Órus-X013, seu dever é recolher o máximo de informações desse planeta e por fim enviar o relatório para o Grande Império Terrano. Comece e termine seu trabalho e prossiga para o próximo planeta.
+                                <rect key="frame" x="20" y="609" width="374" height="203"/>
+                                <string key="text">Você faz parte do projeto Colonização, seu próximo alvo é o planeta Órus-X013, seu dever é recolher o máximo de informações desse planeta e por fim enviar o relatório para o Grande Império Terrano. Comece, termine seu trabalho e prossiga para o próximo planeta.
 
 “Ótimo… mais um planeta que eu tenho que ver se tem recursos para que o império destrua-o completamente…”</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -71,13 +68,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VCY-8f-I0e">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="605"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="VCY-8f-I0e" secondAttribute="height" multiplier="414:605" id="Y4r-vr-tsP"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f71-cg-LYq">
-                                <rect key="frame" x="20" y="828" width="126" height="34"/>
+                                <rect key="frame" x="40" y="832" width="126" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Examinar Rochas"/>
                                 <connections>
@@ -85,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIe-5k-ZAr">
-                                <rect key="frame" x="267" y="832" width="127" height="30"/>
+                                <rect key="frame" x="247" y="832" width="127" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Examinar Plantas"/>
                                 <connections>
@@ -93,7 +87,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-6l-UUt">
-                                <rect key="frame" x="20" y="625" width="374" height="183"/>
+                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
                                 <string key="text">Descendo da nave você se depara com um lindo e exuberante planeta, ele tem muitas formas de vida, o ar é limpo e é incrivelmente leve, uma neblina azulada paira no ar enquanto você começa a organizar seus equipamentos e se prepara pra recolher amostras. 
 
 “Ok, vamos lá… agora devo começar a examinar esse planeta, devo começar por onde?”</string>
@@ -112,9 +106,9 @@
                             <constraint firstItem="gZI-6l-UUt" firstAttribute="leading" secondItem="Uet-UY-uuI" secondAttribute="leading" constant="20" id="Shv-mI-UfM"/>
                             <constraint firstItem="VCY-8f-I0e" firstAttribute="leading" secondItem="Uet-UY-uuI" secondAttribute="leading" id="U8r-ly-bMe"/>
                             <constraint firstItem="NIe-5k-ZAr" firstAttribute="bottom" secondItem="Uet-UY-uuI" secondAttribute="bottom" id="guO-0d-68v"/>
-                            <constraint firstItem="Uet-UY-uuI" firstAttribute="trailing" secondItem="NIe-5k-ZAr" secondAttribute="trailing" constant="20" id="hVL-tE-ojh"/>
+                            <constraint firstItem="Uet-UY-uuI" firstAttribute="trailing" secondItem="NIe-5k-ZAr" secondAttribute="trailing" constant="40" id="hVL-tE-ojh"/>
                             <constraint firstItem="f71-cg-LYq" firstAttribute="bottom" secondItem="Uet-UY-uuI" secondAttribute="bottom" id="haM-zj-Gl7"/>
-                            <constraint firstItem="f71-cg-LYq" firstAttribute="leading" secondItem="Uet-UY-uuI" secondAttribute="leading" constant="20" id="tfb-Ql-asx"/>
+                            <constraint firstItem="f71-cg-LYq" firstAttribute="leading" secondItem="Uet-UY-uuI" secondAttribute="leading" constant="40" id="tfb-Ql-asx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uet-UY-uuI"/>
                     </view>
@@ -132,13 +126,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-Ao-gd9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="503"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="pBP-Ao-gd9" secondAttribute="height" multiplier="414:503" id="ZxF-9e-8Qg"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Id-qg-lsF">
-                                <rect key="frame" x="136" y="827.5" width="143" height="34.5"/>
+                                <rect key="frame" x="136" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
@@ -146,8 +137,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mdm-cU-gMY">
-                                <rect key="frame" x="20" y="523" width="374" height="284.5"/>
-                                <string key="text">Você decide começar examinando expectemos de plantas.Decide ir em direção a uma arvore bem grande, seu tronco é roxo e bem arredondado, dela saem dezenas de raizes que se espalham pelo solo como as raizes de um tubérculo. 
+                                <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <string key="text">Você começa a examinar  algumas  plantas. Decide ir em direção à uma árvore bem grande, seu tronco é roxo e bem arredondado, dela saem dezenas de raizes que se espalham pelo solo como as raizes de um tubérculo. 
 
 “Ola grande arvore! O que tem a me dizer?”
 
@@ -188,13 +179,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Aq-gV-z9H">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="585"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="3Aq-gV-z9H" secondAttribute="height" multiplier="46:65" id="vOw-cE-77x"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="589"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evm-Mn-bMc">
-                                <rect key="frame" x="20" y="605" width="374" height="203"/>
+                                <rect key="frame" x="20" y="609" width="374" height="203"/>
                                 <string key="text">Você começa a escutar uns sons finos porem muito baixos vindo a alguns metros de você, curioso por algo um pouco mais empolgante decide ir lá ver o que era. Chegando la se depara com um animal escamoso, com cerca de dez metros, um corpo robusto e um pescoço longo, aos pés dele você avista os filhotes daquele imenso ser. 
 
 “Uau… olha essas criaturas!”</string>
@@ -203,25 +191,25 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9I-eT-ZB2">
-                                <rect key="frame" x="20" y="832" width="100" height="30"/>
+                                <rect key="frame" x="40" y="832" width="100" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Aproximar-se"/>
                                 <connections>
-                                    <segue destination="Hrg-qf-jqt" kind="show" id="GI2-lP-57F"/>
+                                    <segue destination="4sJ-QR-Ohh" kind="show" id="ciV-ug-Nkc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T58-G2-Z6O">
-                                <rect key="frame" x="259" y="828" width="135" height="34"/>
+                                <rect key="frame" x="239" y="832" width="135" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Ignorar os animais"/>
                                 <connections>
-                                    <segue destination="4sJ-QR-Ohh" kind="show" id="MRT-vW-Ez4"/>
+                                    <segue destination="Hrg-qf-jqt" kind="show" id="YYi-lk-46g"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="5jz-qz-9ws" firstAttribute="trailing" secondItem="T58-G2-Z6O" secondAttribute="trailing" constant="20" id="79d-SP-Jvc"/>
+                            <constraint firstItem="5jz-qz-9ws" firstAttribute="trailing" secondItem="T58-G2-Z6O" secondAttribute="trailing" constant="40" id="79d-SP-Jvc"/>
                             <constraint firstItem="5jz-qz-9ws" firstAttribute="trailing" secondItem="evm-Mn-bMc" secondAttribute="trailing" constant="20" id="AOE-HE-zCk"/>
                             <constraint firstItem="3Aq-gV-z9H" firstAttribute="leading" secondItem="5jz-qz-9ws" secondAttribute="leading" id="E3T-5x-RyB"/>
                             <constraint firstItem="3Aq-gV-z9H" firstAttribute="top" secondItem="D0w-Ol-2kJ" secondAttribute="top" id="EjT-Ja-oHD"/>
@@ -229,7 +217,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             <constraint firstItem="3Aq-gV-z9H" firstAttribute="trailing" secondItem="5jz-qz-9ws" secondAttribute="trailing" id="Nig-op-LnD"/>
                             <constraint firstItem="T58-G2-Z6O" firstAttribute="bottom" secondItem="5jz-qz-9ws" secondAttribute="bottom" id="WMB-d1-hie"/>
                             <constraint firstItem="T58-G2-Z6O" firstAttribute="top" secondItem="evm-Mn-bMc" secondAttribute="bottom" constant="20" id="Xpm-VI-p5M"/>
-                            <constraint firstItem="d9I-eT-ZB2" firstAttribute="leading" secondItem="5jz-qz-9ws" secondAttribute="leading" constant="20" id="ZTe-2j-bZL"/>
+                            <constraint firstItem="d9I-eT-ZB2" firstAttribute="leading" secondItem="5jz-qz-9ws" secondAttribute="leading" constant="40" id="ZTe-2j-bZL"/>
                             <constraint firstItem="evm-Mn-bMc" firstAttribute="top" secondItem="3Aq-gV-z9H" secondAttribute="bottom" constant="20" id="aYo-P3-rYa"/>
                             <constraint firstItem="evm-Mn-bMc" firstAttribute="leading" secondItem="5jz-qz-9ws" secondAttribute="leading" constant="20" id="hvP-fd-ALR"/>
                         </constraints>
@@ -249,13 +237,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hI0-tb-Vn3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="605"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="hI0-tb-Vn3" secondAttribute="height" multiplier="414:605" id="QAs-Zr-mX6"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
-                                <rect key="frame" x="20" y="625" width="374" height="183"/>
+                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
                                 <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca Mae esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
 
 “Oi pequeninos! Tudo bem com vocês hahaha”</string>
@@ -264,7 +249,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB1-Ii-OEM">
-                                <rect key="frame" x="135" y="828" width="143" height="34"/>
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
@@ -301,11 +286,11 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.66666666666669"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjJ-6M-lpe">
-                                <rect key="frame" x="20" y="527.5" width="374" height="284.5"/>
-                                <string key="text">Você continua a seguir seu rumo, ja esta a algumas horas processando dados e recolhendo amostras quando, ao subir uma planície você se depara com novos seres, porem esses são bípedes e parecem estar com lanças primitivas, algumas cestas com frutas e tábuas com uma especie de carne. 
+                                <rect key="frame" x="20" y="527.66666666666663" width="374" height="284.33333333333337"/>
+                                <string key="text">Você continua à seguir seu rumo, já esta a algumas horas processando dados e recolhendo amostras quando, ao subir uma planície você se depara com novos seres, porem esses são bípedes e parecem estar com lanças primitivas, algumas cestas com frutas e tábuas com uma especie de carne. 
 
 “…entrada X-013 AB0566, dia um, acabo de localizar seres aparentemente inteligentes, eles estão recolhendo alimentos e recursos… aparentemente estão em uma fase tribal de evolução…”
 </string>
@@ -314,7 +299,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-8a-Ewo">
-                                <rect key="frame" x="20" y="832" width="105" height="30"/>
+                                <rect key="frame" x="40" y="832" width="105" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Dar meia volta"/>
                                 <connections>
@@ -322,9 +307,9 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-Gi-svJ">
-                                <rect key="frame" x="256" y="832" width="138" height="30"/>
+                                <rect key="frame" x="273" y="832" width="101" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Contactar os seres"/>
+                                <state key="normal" title="Fazer contato"/>
                                 <connections>
                                     <segue destination="RUD-XQ-foB" kind="show" id="w1m-7m-MAw"/>
                                 </connections>
@@ -332,7 +317,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Sgg-8a-Ewo" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="20" id="2v5-xF-v3d"/>
+                            <constraint firstItem="Sgg-8a-Ewo" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="40" id="2v5-xF-v3d"/>
                             <constraint firstItem="Sgg-8a-Ewo" firstAttribute="bottom" secondItem="szE-F2-2Fs" secondAttribute="bottom" id="GAI-gn-r6Z"/>
                             <constraint firstItem="yjJ-6M-lpe" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="20" id="Hbd-Rk-8pZ"/>
                             <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="yjJ-6M-lpe" secondAttribute="trailing" constant="20" id="Jwp-Xd-xpo"/>
@@ -341,7 +326,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             <constraint firstItem="yjJ-6M-lpe" firstAttribute="top" secondItem="Hz6-6J-OO1" secondAttribute="bottom" constant="20" id="V4B-4c-PuE"/>
                             <constraint firstItem="Hz6-6J-OO1" firstAttribute="trailing" secondItem="szE-F2-2Fs" secondAttribute="trailing" id="pKG-Kq-usc"/>
                             <constraint firstItem="Sgg-8a-Ewo" firstAttribute="top" secondItem="yjJ-6M-lpe" secondAttribute="bottom" constant="20" id="war-Y5-xFf"/>
-                            <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="gIZ-Gi-svJ" secondAttribute="trailing" constant="20" id="x4I-hy-VwQ"/>
+                            <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="gIZ-Gi-svJ" secondAttribute="trailing" constant="40" id="x4I-hy-VwQ"/>
                             <constraint firstItem="Hz6-6J-OO1" firstAttribute="top" secondItem="ay2-2j-w7g" secondAttribute="top" id="xpd-gd-HJb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="szE-F2-2Fs"/>
@@ -359,33 +344,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XDu-gZ-d3R">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XDu-gZ-d3R">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfL-lm-4rS">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfL-lm-4rS">
+                                <rect key="frame" x="20" y="649.66666666666663" width="374" height="162.33333333333337"/>
+                                <string key="text">Ao se aproximar das criaturas você percebe que eles estão recolhendo frutas e se preparando para uma caçada, eles são seres altos, cerca de 2 metros, de suas cabeças saem tentáculos, o rosto deles lembra a estrutura do crânio de cavalos. Eles estão conversando e aparentemente se divertindo enquanto recolhem as frutas. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwu-FN-bYG">
-                                <rect key="frame" x="136" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwu-FN-bYG">
+                                <rect key="frame" x="136" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="62x-a2-1eP" kind="show" id="wl0-60-0JF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Iwu-FN-bYG" firstAttribute="bottom" secondItem="GeL-yo-jpL" secondAttribute="bottom" id="3GF-ds-g2I"/>
+                            <constraint firstItem="GeL-yo-jpL" firstAttribute="trailing" secondItem="bfL-lm-4rS" secondAttribute="trailing" constant="20" id="3nC-S6-b7q"/>
+                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="trailing" secondItem="GeL-yo-jpL" secondAttribute="trailing" id="5C4-Gt-grg"/>
+                            <constraint firstItem="Iwu-FN-bYG" firstAttribute="top" secondItem="bfL-lm-4rS" secondAttribute="bottom" constant="20" id="87D-sV-daJ"/>
+                            <constraint firstItem="bfL-lm-4rS" firstAttribute="top" secondItem="XDu-gZ-d3R" secondAttribute="bottom" constant="20" id="Jlr-fh-00F"/>
+                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" id="ZR1-6e-wlT"/>
+                            <constraint firstItem="GeL-yo-jpL" firstAttribute="trailing" secondItem="Iwu-FN-bYG" secondAttribute="trailing" constant="135" id="ecW-33-jge"/>
+                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="top" secondItem="J6P-7c-pJi" secondAttribute="top" id="gvk-eK-adx"/>
+                            <constraint firstItem="Iwu-FN-bYG" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" constant="136" id="hel-j0-aY7"/>
+                            <constraint firstItem="bfL-lm-4rS" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" constant="20" id="z9H-Fd-IH0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GeL-yo-jpL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hro-vF-KNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4882" y="446"/>
+            <point key="canvasLocation" x="4881.159420289855" y="445.98214285714283"/>
         </scene>
         <!--Alienigenas Sacam Armas View Controller-->
         <scene sceneID="fqf-PF-cer">
@@ -395,41 +391,57 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rio-P3-UNC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rio-P3-UNC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-wS-1Yy">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-wS-1Yy">
+                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <string key="text">Porem no momento que você chega mais perto eles acabam te ouvindo e se assustam. Eles começam a falar muito alto em levantam as lanças contra você. 
+
+“Ow ow! Calma!”
+
+Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOy-dZ-pXf">
-                                <rect key="frame" x="20" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="nmO-Ls-Ims" kind="show" id="lbW-ex-C96"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-nr-u1Y">
-                                <rect key="frame" x="234" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-nr-u1Y">
+                                <rect key="frame" x="276" y="832" width="98" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Abaixar arma"/>
                                 <connections>
                                     <segue destination="3l4-bW-YsM" kind="show" id="w0H-lW-CTf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOy-dZ-pXf">
+                                <rect key="frame" x="40" y="832" width="51" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Atirar! "/>
+                                <connections>
+                                    <segue destination="nmO-Ls-Ims" kind="show" id="lbW-ex-C96"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QwM-wS-1Yy" firstAttribute="top" secondItem="rio-P3-UNC" secondAttribute="bottom" constant="20" id="6Le-GQ-zD6"/>
+                            <constraint firstItem="tOy-dZ-pXf" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" constant="40" id="6m6-gL-f3X"/>
+                            <constraint firstItem="QwM-wS-1Yy" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" constant="20" id="7D1-rd-GAW"/>
+                            <constraint firstItem="Bqs-Fd-hGv" firstAttribute="trailing" secondItem="xGQ-nr-u1Y" secondAttribute="trailing" constant="40" id="C63-eC-zsY"/>
+                            <constraint firstItem="rio-P3-UNC" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" id="CfT-uc-DML"/>
+                            <constraint firstItem="tOy-dZ-pXf" firstAttribute="top" secondItem="QwM-wS-1Yy" secondAttribute="bottom" constant="20" id="RAI-bN-8Na"/>
+                            <constraint firstItem="xGQ-nr-u1Y" firstAttribute="bottom" secondItem="Bqs-Fd-hGv" secondAttribute="bottom" id="TtU-pS-sO9"/>
+                            <constraint firstItem="rio-P3-UNC" firstAttribute="top" secondItem="2Wm-0p-etp" secondAttribute="top" id="dlW-bP-s8w"/>
+                            <constraint firstItem="tOy-dZ-pXf" firstAttribute="bottom" secondItem="Bqs-Fd-hGv" secondAttribute="bottom" id="e9z-Uy-aZh"/>
+                            <constraint firstItem="Bqs-Fd-hGv" firstAttribute="trailing" secondItem="QwM-wS-1Yy" secondAttribute="trailing" constant="20" id="t7k-7B-JQ5"/>
+                            <constraint firstItem="rio-P3-UNC" firstAttribute="trailing" secondItem="Bqs-Fd-hGv" secondAttribute="trailing" id="vaw-Yh-MKW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bqs-Fd-hGv"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rS1-OO-tmk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5625" y="446"/>
+            <point key="canvasLocation" x="5624.6376811594209" y="445.98214285714283"/>
         </scene>
         <!--Abaixar Arma View Controller-->
         <scene sceneID="U2c-Nj-xbm">
@@ -443,9 +455,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
                                 <rect key="frame" x="20" y="460" width="374" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Você não vai matar criaturas primitivas com uma arma laser, uma das poucas coisas que você ainda pode se orgulhar é de sua sanidade. Então decide abaixar a arma, ao fazer isso você percebe que aparentemente o líder daquele grupo manda os seus companheiros abaixarem as lanças também. Eles começam a falar e você decide ligar seu tradutor universal. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -453,7 +466,8 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsP-x8-oNh">
                                 <rect key="frame" x="135" y="797" width="143" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="2NU-L8-J8L" kind="show" id="9cv-z1-64U"/>
                                 </connections>
@@ -465,12 +479,12 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEu-DX-tqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6393" y="1030"/>
+            <point key="canvasLocation" x="6392.753623188406" y="1029.9107142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Tradutor View Controller-->
         <scene sceneID="Qmt-ui-hX3">
             <objects>
-                <viewController id="2NU-L8-J8L" sceneMemberID="viewController">
+                <viewController id="2NU-L8-J8L" customClass="TradutorViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KkL-jB-kls">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -503,10 +517,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="6393" y="1709"/>
         </scene>
-        <!--View Controller-->
+        <!--Conversa Aliens View Controller-->
         <scene sceneID="isH-3G-8zg">
             <objects>
-                <viewController id="er8-to-ipS" sceneMemberID="viewController">
+                <viewController id="er8-to-ipS" customClass="ConversaAliensViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Hs-mf-UWN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -547,10 +561,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7130" y="1709"/>
         </scene>
-        <!--View Controller-->
+        <!--Aceitar Convite View Controller-->
         <scene sceneID="2fu-jX-xxf">
             <objects>
-                <viewController id="3bE-xg-zxy" sceneMemberID="viewController">
+                <viewController id="3bE-xg-zxy" customClass="AceitarConviteViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0XR-p4-z8t">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -583,10 +597,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7900" y="2083"/>
         </scene>
-        <!--View Controller-->
+        <!--Vila View Controller-->
         <scene sceneID="aby-Dl-fOj">
             <objects>
-                <viewController id="64H-AG-Zdt" sceneMemberID="viewController">
+                <viewController id="64H-AG-Zdt" customClass="VilaViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZQU-Zh-tue">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -619,10 +633,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7900" y="2817"/>
         </scene>
-        <!--View Controller-->
+        <!--Relatorio Falso View Controller-->
         <scene sceneID="irn-2C-Mpn">
             <objects>
-                <viewController id="MRW-11-Ih6" sceneMemberID="viewController">
+                <viewController id="MRW-11-Ih6" customClass="RelatorioFalsoViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0sB-ox-x0T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -655,10 +669,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7900" y="3542"/>
         </scene>
-        <!--View Controller-->
+        <!--Nova Vida View Controller-->
         <scene sceneID="tci-Iv-EBf">
             <objects>
-                <viewController id="FeL-dA-axy" sceneMemberID="viewController">
+                <viewController id="FeL-dA-axy" customClass="NovaVidaViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pwq-2o-zqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -691,10 +705,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7900" y="4262"/>
         </scene>
-        <!--View Controller-->
+        <!--Agradecer View Controller-->
         <scene sceneID="QvE-gd-XIg">
             <objects>
-                <viewController id="GTe-yn-gV1" sceneMemberID="viewController">
+                <viewController id="GTe-yn-gV1" customClass="AgradecerViewController" customModule="Projeto_1___livrojogo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vmX-CM-NXk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -714,6 +728,9 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <rect key="frame" x="135" y="797" width="143" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="pVm-iy-PS2" kind="show" id="gW8-CJ-0bE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -724,16 +741,16 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="7901" y="1414"/>
         </scene>
-        <!--View Controller-->
+        <!--Presente View Controller-->
         <scene sceneID="nGV-Tz-XXe">
             <objects>
-                <viewController id="pVm-iy-PS2" sceneMemberID="viewController">
+                <viewController id="pVm-iy-PS2" customClass="PresenteViewController" customModule="Projeto_1___livrojogo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bsA-wZ-lrJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuK-ex-DHz">
-                                <rect key="frame" x="0.0" y="17" width="414" height="452"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAw-wG-KDK">
@@ -766,12 +783,12 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dVp-w1-og2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8617" y="1414"/>
+            <point key="canvasLocation" x="8615.9420289855079" y="1413.6160714285713"/>
         </scene>
-        <!--View Controller-->
+        <!--Recusar View Controller-->
         <scene sceneID="F3K-qL-AG4">
             <objects>
-                <viewController id="alZ-bD-9kI" sceneMemberID="viewController">
+                <viewController id="alZ-bD-9kI" customClass="RecusarViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nla-3c-Pxc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -804,10 +821,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="9383" y="1777"/>
         </scene>
-        <!--View Controller-->
+        <!--Suicidio View Controller-->
         <scene sceneID="pjC-U9-Vqj">
             <objects>
-                <viewController id="Wep-Ch-AGq" sceneMemberID="viewController">
+                <viewController id="Wep-Ch-AGq" customClass="SuicidioViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bk0-qH-GNY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -840,10 +857,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="10122" y="1777"/>
         </scene>
-        <!--View Controller-->
+        <!--Aceitar View Controller-->
         <scene sceneID="XWe-4b-yf6">
             <objects>
-                <viewController id="aYE-wd-8bW" sceneMemberID="viewController">
+                <viewController id="aYE-wd-8bW" customClass="AceitarViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dkj-uH-Se6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -876,10 +893,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
             </objects>
             <point key="canvasLocation" x="9383" y="1116"/>
         </scene>
-        <!--View Controller-->
+        <!--Eremita View Controller-->
         <scene sceneID="pSi-8x-TOK">
             <objects>
-                <viewController id="Xm3-Og-qpn" sceneMemberID="viewController">
+                <viewController id="Xm3-Og-qpn" customClass="EremitaViewController" customModule="Projeto_1___livrojogo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fXN-H8-7tk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -920,41 +937,56 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="571"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjU-3L-3yO">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjU-3L-3yO">
+                                <rect key="frame" x="20" y="591" width="374" height="203"/>
+                                <string key="text">No momento em que um dos seres se move para a sua direção, você puxa o gatilho da sua arma o tiro laser deixa o seres muito perplexos e assustados, isso faz com que eles, em desespero avancem contra você. Após alguns minutos a cena que você se depara é muito triste, todos estão mortos no chão, muito sangue roxo escorre pelos corpos. De repente você vê um doa alienígenas levantando e correndo para longe. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAJ-hx-D2v">
-                                <rect key="frame" x="20" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAJ-hx-D2v">
+                                <rect key="frame" x="40" y="814" width="104" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title">Deixá-lo fugir. 
+</string>
+                                </state>
                                 <connections>
                                     <segue destination="Vkn-QD-YpJ" kind="show" id="GoO-vb-xSq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujq-fk-w5H">
-                                <rect key="frame" x="234" y="783" width="160" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujq-fk-w5H">
+                                <rect key="frame" x="285" y="832" width="89" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Perseguí-lo "/>
                                 <connections>
                                     <segue destination="3Lo-cH-vt9" kind="show" id="aeZ-xg-jn0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yjU-3L-3yO" firstAttribute="top" secondItem="58Q-wo-lnu" secondAttribute="bottom" constant="20" id="5oe-td-IGa"/>
+                            <constraint firstItem="58Q-wo-lnu" firstAttribute="top" secondItem="axF-Gf-IXv" secondAttribute="top" id="DaA-a5-nGE"/>
+                            <constraint firstItem="LnN-r2-lAW" firstAttribute="trailing" secondItem="Ujq-fk-w5H" secondAttribute="trailing" constant="40" id="ERI-S4-9bF"/>
+                            <constraint firstItem="Ujq-fk-w5H" firstAttribute="bottom" secondItem="LnN-r2-lAW" secondAttribute="bottom" id="EUg-KZ-2RO"/>
+                            <constraint firstItem="aAJ-hx-D2v" firstAttribute="bottom" secondItem="LnN-r2-lAW" secondAttribute="bottom" id="WlP-dy-Py4"/>
+                            <constraint firstItem="aAJ-hx-D2v" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" constant="40" id="dGm-Wz-oop"/>
+                            <constraint firstItem="aAJ-hx-D2v" firstAttribute="top" secondItem="yjU-3L-3yO" secondAttribute="bottom" constant="20" id="eOZ-sA-WAI"/>
+                            <constraint firstItem="58Q-wo-lnu" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" id="gf4-E3-9eQ"/>
+                            <constraint firstItem="58Q-wo-lnu" firstAttribute="trailing" secondItem="LnN-r2-lAW" secondAttribute="trailing" id="mJT-8E-MVi"/>
+                            <constraint firstItem="yjU-3L-3yO" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" constant="20" id="npX-Kl-w85"/>
+                            <constraint firstItem="LnN-r2-lAW" firstAttribute="trailing" secondItem="yjU-3L-3yO" secondAttribute="trailing" constant="20" id="zOf-NL-7UB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LnN-r2-lAW"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wqr-hy-vaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7419" y="139"/>
+            <point key="canvasLocation" x="7418.8405797101459" y="138.61607142857142"/>
         </scene>
         <!--Perseguir Alienigena View Controller-->
         <scene sceneID="pT6-sZ-Y5J">
@@ -964,33 +996,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-OH-Oqa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-OH-Oqa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKy-8O-RY8">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKy-8O-RY8">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Todos esses anos de servidão e tristeza agora se voltam só em uma só coisa, sede por sangue… Você segue o alienígena miserável até a sua tribo, chegando la, o caos é instaurado. Um verdadeiro apocalipse para aqueles seres, e você pode, nesse momento, se intitular como um de seus cavaleiros. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeU-v3-Rtq">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeU-v3-Rtq">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="yGm-Fp-TxP" kind="show" id="3mj-pK-Igg"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="trailing" secondItem="0Sy-Gm-Ler" secondAttribute="trailing" id="3QI-zr-IOm"/>
+                            <constraint firstItem="0Sy-Gm-Ler" firstAttribute="trailing" secondItem="GKy-8O-RY8" secondAttribute="trailing" constant="20" id="78F-er-wSl"/>
+                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="top" secondItem="rEU-lW-1AO" secondAttribute="top" id="PZw-tK-T4a"/>
+                            <constraint firstItem="0Sy-Gm-Ler" firstAttribute="trailing" secondItem="EeU-v3-Rtq" secondAttribute="trailing" constant="136" id="Zt7-TU-dG8"/>
+                            <constraint firstItem="EeU-v3-Rtq" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" constant="135" id="dYE-p8-6j1"/>
+                            <constraint firstItem="EeU-v3-Rtq" firstAttribute="top" secondItem="GKy-8O-RY8" secondAttribute="bottom" constant="20" id="fMR-eW-gYh"/>
+                            <constraint firstItem="EeU-v3-Rtq" firstAttribute="bottom" secondItem="0Sy-Gm-Ler" secondAttribute="bottom" id="fo5-rj-fJ7"/>
+                            <constraint firstItem="GKy-8O-RY8" firstAttribute="top" secondItem="1vB-OH-Oqa" secondAttribute="bottom" constant="20" id="hNI-vb-1sM"/>
+                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" id="t3P-8A-NSz"/>
+                            <constraint firstItem="GKy-8O-RY8" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" constant="20" id="t4Q-RG-5Bo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0Sy-Gm-Ler"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOK-eA-rpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8187" y="457"/>
+            <point key="canvasLocation" x="8186.9565217391309" y="456.69642857142856"/>
         </scene>
         <!--Matar Todos View Controller-->
         <scene sceneID="Q78-3q-0tt">
@@ -1000,33 +1043,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-5x-tjc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-5x-tjc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-nG-0GL">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-nG-0GL">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Após algumas horas aquela vila nojenta esta em chamas, tudo esta destruído e você nunca esteve tão vivo, você então parte a diante, procurando mais daqueles seres primitivos para ceifar. Com o passar do tempo, você se tornou uma lenda naquele povo, uma espécie de demônio. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fih-sT-Bm9">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fih-sT-Bm9">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="yoR-6y-Its" kind="show" id="T6S-s8-Mqh"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D60-P4-Pkb" firstAttribute="trailing" secondItem="Fih-sT-Bm9" secondAttribute="trailing" constant="136" id="0mc-Or-WFi"/>
+                            <constraint firstItem="Y3H-nG-0GL" firstAttribute="top" secondItem="Wso-5x-tjc" secondAttribute="bottom" constant="20" id="31U-2a-iOb"/>
+                            <constraint firstItem="Wso-5x-tjc" firstAttribute="trailing" secondItem="D60-P4-Pkb" secondAttribute="trailing" id="BQo-rm-PoL"/>
+                            <constraint firstItem="Fih-sT-Bm9" firstAttribute="bottom" secondItem="D60-P4-Pkb" secondAttribute="bottom" id="CfZ-id-dGy"/>
+                            <constraint firstItem="Wso-5x-tjc" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" id="JH3-SZ-wqT"/>
+                            <constraint firstItem="Fih-sT-Bm9" firstAttribute="top" secondItem="Y3H-nG-0GL" secondAttribute="bottom" constant="20" id="R0A-Fb-ivA"/>
+                            <constraint firstItem="D60-P4-Pkb" firstAttribute="trailing" secondItem="Y3H-nG-0GL" secondAttribute="trailing" constant="20" id="WQh-IB-h7t"/>
+                            <constraint firstItem="Y3H-nG-0GL" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" constant="20" id="aX5-lw-u2a"/>
+                            <constraint firstItem="Wso-5x-tjc" firstAttribute="top" secondItem="fca-wL-RgW" secondAttribute="top" id="p3U-Qd-NOS"/>
+                            <constraint firstItem="Fih-sT-Bm9" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" constant="135" id="p40-Dx-7qn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="D60-P4-Pkb"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVs-hB-YRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8926" y="457"/>
+            <point key="canvasLocation" x="8924.6376811594218" y="456.69642857142856"/>
         </scene>
         <!--Final Dois View Controller-->
         <scene sceneID="eJh-zA-Axy">
@@ -1036,33 +1090,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ih-iS-tqB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ih-iS-tqB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrw-zA-uXj">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrw-zA-uXj">
+                                <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <string key="text">“E agora um comunicado do governo… Após os acontecimentos de Órus X-013	 virem a publico onde um dos nossos colonizadores em um acesso de fúria dizimou diversos seres alienígenas, ficou decidido que nas próximas missões não será mais permitido o uso de laser, somente armas tonteadoras. Um inquérito público foi aberto para investigar se o projeto colonizadores esta realmente respeitando a diretriz de não destruir planetas com formas de vida, traremos mais informações a seguir!"  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXY-44-TkS">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXY-44-TkS">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Jogar novamente"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="efC-s5-zso"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vrw-zA-uXj" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" constant="20" id="1od-8q-7n2"/>
+                            <constraint firstItem="8mh-Fx-2zR" firstAttribute="trailing" secondItem="Vrw-zA-uXj" secondAttribute="trailing" constant="20" id="QSl-Az-rcf"/>
+                            <constraint firstItem="6ih-iS-tqB" firstAttribute="trailing" secondItem="8mh-Fx-2zR" secondAttribute="trailing" id="hzm-gl-Jqh"/>
+                            <constraint firstItem="6ih-iS-tqB" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" id="ibT-Qg-UE7"/>
+                            <constraint firstItem="UXY-44-TkS" firstAttribute="top" secondItem="Vrw-zA-uXj" secondAttribute="bottom" constant="20" id="jKg-TH-VGf"/>
+                            <constraint firstItem="6ih-iS-tqB" firstAttribute="top" secondItem="Pcu-zL-yeZ" secondAttribute="top" id="o8I-46-loF"/>
+                            <constraint firstItem="UXY-44-TkS" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" constant="135" id="pSG-03-C3N"/>
+                            <constraint firstItem="8mh-Fx-2zR" firstAttribute="trailing" secondItem="UXY-44-TkS" secondAttribute="trailing" constant="136" id="qhV-lx-eeK"/>
+                            <constraint firstItem="UXY-44-TkS" firstAttribute="bottom" secondItem="8mh-Fx-2zR" secondAttribute="bottom" id="xZp-Ro-IPi"/>
+                            <constraint firstItem="Vrw-zA-uXj" firstAttribute="top" secondItem="6ih-iS-tqB" secondAttribute="bottom" constant="20" id="yob-EX-ctU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8mh-Fx-2zR"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEJ-18-VcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9668" y="-1327"/>
+            <point key="canvasLocation" x="9666.6666666666679" y="-1327.2321428571429"/>
         </scene>
         <!--Retornar Para Nave View Controller-->
         <scene sceneID="swH-QJ-pgY">
@@ -1072,33 +1137,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alG-wr-DaB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alG-wr-DaB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-DK-5H5">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-DK-5H5">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">Você é profissional, acabou de ter um deslize inaceitável e que provavelmente ira trazer alguma punição, você retorna para sua nave, sai daquela região e termina sua missão o mais rápido possível. Ao enviar seu relatório você evita informa o ocorrido, que diferença vai fazer alguns nativos mortos… eles vão destruir tudo. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW4-C9-ItP">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW4-C9-ItP">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="eSX-nL-Osz" kind="show" id="7bT-jN-g2W"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fW4-C9-ItP" firstAttribute="bottom" secondItem="iYK-h5-g6a" secondAttribute="bottom" id="1Zx-JN-0Xq"/>
+                            <constraint firstItem="alG-wr-DaB" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" id="LOK-s7-n22"/>
+                            <constraint firstItem="iYK-h5-g6a" firstAttribute="trailing" secondItem="fW4-C9-ItP" secondAttribute="trailing" constant="136" id="PyZ-0f-Tfg"/>
+                            <constraint firstItem="fW4-C9-ItP" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" constant="135" id="WhV-sO-oCf"/>
+                            <constraint firstItem="fW4-C9-ItP" firstAttribute="top" secondItem="UXt-DK-5H5" secondAttribute="bottom" constant="20" id="alg-L9-cTR"/>
+                            <constraint firstItem="iYK-h5-g6a" firstAttribute="trailing" secondItem="UXt-DK-5H5" secondAttribute="trailing" constant="20" id="ey9-Su-CCz"/>
+                            <constraint firstItem="alG-wr-DaB" firstAttribute="trailing" secondItem="iYK-h5-g6a" secondAttribute="trailing" id="nul-hT-xYk"/>
+                            <constraint firstItem="alG-wr-DaB" firstAttribute="top" secondItem="Odb-l0-Pj3" secondAttribute="top" id="ymx-6t-axz"/>
+                            <constraint firstItem="UXt-DK-5H5" firstAttribute="top" secondItem="alG-wr-DaB" secondAttribute="bottom" constant="20" id="zA8-Wd-lfy"/>
+                            <constraint firstItem="UXt-DK-5H5" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" constant="20" id="zNr-pT-vGi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iYK-h5-g6a"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MiT-Zi-U8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8187" y="-292"/>
+            <point key="canvasLocation" x="8186.9565217391309" y="-292.63392857142856"/>
         </scene>
         <!--Continuar Missao Sem Intergair View Controller-->
         <scene sceneID="lXx-ir-Saf">
@@ -1108,33 +1184,45 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u35-Rs-FPk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u35-Rs-FPk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlg-nM-Enm">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlg-nM-Enm">
+                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <string key="text">A primeira diretriz e mais essencial de todas é a de contato, ela diz “ não se aproxime de seres que ainda não descobriram a viagem intergaláctica, ao se deparar com esse caso, de meia volta.”
+Então você decide dar meia volta e prosseguir à diante com a sua missão.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG1-w3-6cU">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG1-w3-6cU">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="P3l-8H-fUE" kind="show" id="Y47-yh-W3H"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u35-Rs-FPk" firstAttribute="top" secondItem="3GW-hg-6yw" secondAttribute="top" id="GkU-jv-FWj"/>
+                            <constraint firstItem="AG1-w3-6cU" firstAttribute="top" secondItem="vlg-nM-Enm" secondAttribute="bottom" constant="20" id="R0B-q6-Szx"/>
+                            <constraint firstItem="BUR-md-eSO" firstAttribute="trailing" secondItem="vlg-nM-Enm" secondAttribute="trailing" constant="20" id="X12-qE-1Dk"/>
+                            <constraint firstItem="AG1-w3-6cU" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" constant="135" id="f7O-hb-NzS"/>
+                            <constraint firstItem="AG1-w3-6cU" firstAttribute="bottom" secondItem="BUR-md-eSO" secondAttribute="bottom" id="gqQ-pk-nj1"/>
+                            <constraint firstItem="vlg-nM-Enm" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" constant="20" id="l3x-N3-Q9k"/>
+                            <constraint firstItem="u35-Rs-FPk" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" id="ndS-eJ-jnQ"/>
+                            <constraint firstItem="u35-Rs-FPk" firstAttribute="trailing" secondItem="BUR-md-eSO" secondAttribute="trailing" id="rSf-Td-btE"/>
+                            <constraint firstItem="vlg-nM-Enm" firstAttribute="top" secondItem="u35-Rs-FPk" secondAttribute="bottom" constant="20" id="t0A-dI-yB4"/>
+                            <constraint firstItem="BUR-md-eSO" firstAttribute="trailing" secondItem="AG1-w3-6cU" secondAttribute="trailing" constant="136" id="x6O-rF-z21"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BUR-md-eSO"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7P-jI-qF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4887" y="-208"/>
+            <point key="canvasLocation" x="4886.9565217391309" y="-208.25892857142856"/>
         </scene>
         <!--Continuar Pesquisa Um View Controller-->
         <scene sceneID="GFE-F5-reN">
@@ -1144,33 +1232,46 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-cZ-mlz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gp-8h-q0b">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gp-8h-q0b">
+                                <rect key="frame" x="20" y="690" width="374" height="122"/>
+                                <string key="text">Você prossegue cautelosamente na sua missão, se depara com os seres diversas vezes e por conta disso decide partir em direção a outra área do planeta para terminar sua missão sem correr os riscos de um contato inesperado. 
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpK-i9-IRO">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpK-i9-IRO">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="c4O-hZ-SCF" kind="show" id="kKL-sG-OXa"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-cZ-mlz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9gp-8h-q0b" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" constant="20" id="0TI-8v-nZ0"/>
+                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="top" secondItem="0Rx-3v-Kbz" secondAttribute="top" id="7xI-PP-p5v"/>
+                            <constraint firstItem="9gp-8h-q0b" firstAttribute="top" secondItem="Yzq-cZ-mlz" secondAttribute="bottom" constant="20" id="Fya-Tg-L0j"/>
+                            <constraint firstItem="RpK-i9-IRO" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" constant="135" id="Jhx-rg-y6D"/>
+                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="top" secondItem="0Rx-3v-Kbz" secondAttribute="top" id="KU2-LK-K1T"/>
+                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" id="Qyf-gD-3Vw"/>
+                            <constraint firstItem="Cub-ub-lUi" firstAttribute="trailing" secondItem="RpK-i9-IRO" secondAttribute="trailing" constant="136" id="Tyy-TK-Lac"/>
+                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="trailing" secondItem="Cub-ub-lUi" secondAttribute="trailing" id="Xhp-ak-Jba"/>
+                            <constraint firstItem="Cub-ub-lUi" firstAttribute="trailing" secondItem="9gp-8h-q0b" secondAttribute="trailing" constant="20" id="aXw-WG-tFg"/>
+                            <constraint firstItem="RpK-i9-IRO" firstAttribute="bottom" secondItem="Cub-ub-lUi" secondAttribute="bottom" id="ihk-ud-T9m"/>
+                            <constraint firstItem="RpK-i9-IRO" firstAttribute="top" secondItem="9gp-8h-q0b" secondAttribute="bottom" constant="20" id="mEb-wW-ffn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Cub-ub-lUi"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Is8-BF-O7K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5651" y="-585"/>
+            <point key="canvasLocation" x="5650.7246376811599" y="-585.26785714285711"/>
         </scene>
         <!--Continuar Pesquisa Dois View Controller-->
         <scene sceneID="EN4-LB-gOO">
@@ -1180,33 +1281,44 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-Xb-2Yz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-Xb-2Yz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hO-IV-dux">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hO-IV-dux">
+                                <rect key="frame" x="20" y="690" width="374" height="122"/>
+                                <string key="text">Sua missão é finalizada com êxito, o relatório é enviado para seu supervisor que repassa para os supervisores dele e assim por diante. Em menos de alguns dias você decidiu que um planeta deve ser destruído e ter todos os seus recursos limpos. Será que não há algo de errado nisso? </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqz-eT-g48">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqz-eT-g48">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
                                     <segue destination="eSX-nL-Osz" kind="show" id="7zJ-42-l2Q"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="trailing" secondItem="EkU-l5-rZA" secondAttribute="trailing" id="4cf-DK-FhK"/>
+                            <constraint firstItem="3hO-IV-dux" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" constant="20" id="8Hm-Bv-GcJ"/>
+                            <constraint firstItem="Pqz-eT-g48" firstAttribute="top" secondItem="3hO-IV-dux" secondAttribute="bottom" constant="20" id="9eU-0O-Z9E"/>
+                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="top" secondItem="3kU-y7-FqE" secondAttribute="top" id="Lz5-0i-dll"/>
+                            <constraint firstItem="EkU-l5-rZA" firstAttribute="trailing" secondItem="3hO-IV-dux" secondAttribute="trailing" constant="20" id="Sqf-8Q-NyU"/>
+                            <constraint firstItem="3hO-IV-dux" firstAttribute="top" secondItem="Qda-Xb-2Yz" secondAttribute="bottom" constant="20" id="WQ1-aa-0WU"/>
+                            <constraint firstItem="Pqz-eT-g48" firstAttribute="bottom" secondItem="EkU-l5-rZA" secondAttribute="bottom" id="Yys-vq-YNZ"/>
+                            <constraint firstItem="EkU-l5-rZA" firstAttribute="trailing" secondItem="Pqz-eT-g48" secondAttribute="trailing" constant="136" id="lw4-KG-MPQ"/>
+                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" id="uga-gW-1Yq"/>
+                            <constraint firstItem="Pqz-eT-g48" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" constant="135" id="zdR-1h-U2W"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="EkU-l5-rZA"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aT4-6D-YOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6367" y="-585"/>
+            <point key="canvasLocation" x="6366.666666666667" y="-585.26785714285711"/>
         </scene>
         <!--Final Um View Controller-->
         <scene sceneID="Y9F-ec-oHL">
@@ -1216,33 +1328,46 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFN-Ty-PAF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mFN-Ty-PAF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYk-RH-OBf">
-                                <rect key="frame" x="20" y="460" width="374" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYk-RH-OBf">
+                                <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <string key="text">Enquanto toma um café na sua nave, durante outra missão você recebe um chamado, abrindo você se depara com a menagem:
+
+"Parabéns pelo seu quinquagésimo planeta revisado, agradecemos muito seu excelente serviço para o grande Império. Gostaríamos de informar que, graças ao seu relatório sobre o planeta Órus X-013 encontramos uma grande quantidade de material radioativo, graças a você a humanidade esta mais segura!"  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjF-JS-oEu">
-                                <rect key="frame" x="135" y="797" width="143" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjF-JS-oEu">
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Jogar novamente"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="mkq-vz-Ilm"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UD0-bx-OrI" firstAttribute="trailing" secondItem="qjF-JS-oEu" secondAttribute="trailing" constant="136" id="89o-ds-QCJ"/>
+                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" id="LzL-QK-ZLd"/>
+                            <constraint firstItem="LYk-RH-OBf" firstAttribute="top" secondItem="mFN-Ty-PAF" secondAttribute="bottom" constant="20" id="OLC-sQ-sed"/>
+                            <constraint firstItem="LYk-RH-OBf" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" constant="20" id="RqN-0A-DvL"/>
+                            <constraint firstItem="UD0-bx-OrI" firstAttribute="trailing" secondItem="LYk-RH-OBf" secondAttribute="trailing" constant="20" id="bmR-IG-OuL"/>
+                            <constraint firstItem="qjF-JS-oEu" firstAttribute="bottom" secondItem="UD0-bx-OrI" secondAttribute="bottom" id="cd3-xh-jYo"/>
+                            <constraint firstItem="qjF-JS-oEu" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" constant="135" id="gF9-Au-SY5"/>
+                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="top" secondItem="SgO-Gz-zo2" secondAttribute="top" id="oER-hz-9e4"/>
+                            <constraint firstItem="qjF-JS-oEu" firstAttribute="top" secondItem="LYk-RH-OBf" secondAttribute="bottom" constant="20" id="vKg-uW-yaj"/>
+                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="trailing" secondItem="UD0-bx-OrI" secondAttribute="trailing" id="zp2-to-AHP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UD0-bx-OrI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4f-Et-yaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7174" y="-1327"/>
+            <point key="canvasLocation" x="7173.913043478261" y="-1327.2321428571429"/>
         </scene>
         <!--Interagir Animais View Controller-->
         <scene sceneID="jXc-sM-mRV">
@@ -1253,13 +1378,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mlo-vi-wdy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="666"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Mlo-vi-wdy" secondAttribute="height" multiplier="23:37" id="IeO-P9-dhl"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yga-3F-vv7">
-                                <rect key="frame" x="20" y="686" width="374" height="122"/>
+                                <rect key="frame" x="20" y="690" width="374" height="122"/>
                                 <string key="text">Você da as costas para aquelas criaturas e volta a fazer deus estudos e a examinar o ambiente.
 
 “Foco! Não tenho tempo e nem vontade para ficar indo atras de animais alienígenas… vamos a isso, quero sair logo desse planeta…”</string>
@@ -1268,7 +1390,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-FP-yDY">
-                                <rect key="frame" x="135" y="828" width="143" height="34"/>
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
@@ -1305,13 +1427,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-5x-ndg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="544"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="7ke-5x-ndg" secondAttribute="height" multiplier="207:272" id="shD-EO-g48"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="548.33333333333337"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sJ-iW-F2h">
-                                <rect key="frame" x="135" y="827.5" width="143" height="34.5"/>
+                                <rect key="frame" x="135" y="832" width="143" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Próximo &gt;&gt;"/>
                                 <connections>
@@ -1319,7 +1438,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYX-Ku-tsC">
-                                <rect key="frame" x="20" y="564" width="374" height="243.5"/>
+                                <rect key="frame" x="20" y="568.33333333333337" width="374" height="243.66666666666663"/>
                                 <string key="text">Você decide começar a examinas pedras, tentar descobrir quais elementos consegue encontrar naquele planeta. Você se aproxima de algumas rochas alaranjadas, provavelmente ferro.
 
 “Vamos às pedras logo… é sempre isso que procuram mesmo… metais ridículos para fazer naves ridículas…”
@@ -1354,7 +1473,7 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
     <inferredMetricsTieBreakers>
         <segue reference="7bT-jN-g2W"/>
         <segue reference="DZu-bh-qZ4"/>
-        <segue reference="FNb-jy-0Fm"/>
+        <segue reference="Ot1-gV-0GJ"/>
         <segue reference="7eR-9K-wXR"/>
     </inferredMetricsTieBreakers>
 </document>
