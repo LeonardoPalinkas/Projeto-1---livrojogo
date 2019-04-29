@@ -32,6 +32,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfP-gf-iU5">
                                 <rect key="frame" x="20" y="609" width="374" height="203"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você faz parte do projeto Colonização, seu próximo alvo é o planeta Órus-X013, seu dever é recolher o máximo de informações desse planeta e por fim enviar o relatório para o Grande Império Terrano. Comece, termine seu trabalho e prossiga para o próximo planeta.
 
 “Ótimo… mais um planeta que eu tenho que ver se tem recursos para que o império destrua-o completamente…”</string>
@@ -85,6 +86,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-6l-UUt">
                                 <rect key="frame" x="20" y="629" width="374" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Descendo da nave você se depara com um lindo e exuberante planeta, ele tem muitas formas de vida, o ar é limpo e é incrivelmente leve, uma neblina azulada paira no ar enquanto você começa a organizar seus equipamentos e se prepara pra recolher amostras. 
 
 “Ok, vamos lá… agora devo começar a examinar esse planeta, devo começar por onde?”</string>
@@ -132,6 +134,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mdm-cU-gMY">
                                 <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você começa a examinar  algumas  plantas. Decide ir em direção à uma árvore bem grande, seu tronco é roxo e bem arredondado, dela saem dezenas de raizes que se espalham pelo solo como as raizes de um tubérculo. 
 
 “Ola grande arvore! O que tem a me dizer?”
@@ -174,6 +177,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evm-Mn-bMc">
                                 <rect key="frame" x="20" y="609" width="374" height="203"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você começa a escutar uns sons finos porem muito baixos vindo a alguns metros de você, curioso por algo um pouco mais empolgante decide ir lá ver o que era. Chegando la se depara com um animal escamoso, com cerca de dez metros, um corpo robusto e um pescoço longo, aos pés dele você avista os filhotes daquele imenso ser. 
 
 “Uau… olha essas criaturas!”</string>
@@ -229,6 +233,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
                                 <rect key="frame" x="20" y="629" width="374" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca mãe esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
 
 “Oi pequeninos! Tudo bem com vocês hahaha”</string>
@@ -269,11 +274,13 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 6" highlightedImage="tela 6" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="678"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjJ-6M-lpe">
                                 <rect key="frame" x="20" y="527.5" width="374" height="284.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você continua à seguir seu rumo, já esta a algumas horas processando dados e recolhendo amostras quando, ao subir uma planície você se depara com novos seres, porem esses são bípedes e parecem estar com lanças primitivas, algumas cestas com frutas e tábuas com uma especie de carne. 
 
 “…entrada X-013 AB0566, dia um, acabo de localizar seres aparentemente inteligentes, eles estão recolhendo alimentos e recursos… aparentemente estão em uma fase tribal de evolução…”
@@ -302,15 +309,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Sgg-8a-Ewo" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="40" id="2v5-xF-v3d"/>
-                            <constraint firstItem="yjJ-6M-lpe" firstAttribute="top" secondItem="Hz6-6J-OO1" secondAttribute="bottom" constant="20" id="FWk-Or-rvu"/>
                             <constraint firstItem="Sgg-8a-Ewo" firstAttribute="bottom" secondItem="szE-F2-2Fs" secondAttribute="bottom" id="GAI-gn-r6Z"/>
                             <constraint firstItem="yjJ-6M-lpe" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" constant="20" id="Hbd-Rk-8pZ"/>
-                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="trailing" secondItem="szE-F2-2Fs" secondAttribute="trailing" id="HzM-U3-9Iz"/>
                             <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="yjJ-6M-lpe" secondAttribute="trailing" constant="20" id="Jwp-Xd-xpo"/>
                             <constraint firstItem="gIZ-Gi-svJ" firstAttribute="bottom" secondItem="szE-F2-2Fs" secondAttribute="bottom" id="L14-BV-Epq"/>
-                            <constraint firstItem="yjJ-6M-lpe" firstAttribute="top" secondItem="Hz6-6J-OO1" secondAttribute="bottom" constant="20" id="k3n-eg-TQm"/>
-                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="top" secondItem="ay2-2j-w7g" secondAttribute="top" id="oKS-Eh-af4"/>
-                            <constraint firstItem="Hz6-6J-OO1" firstAttribute="leading" secondItem="szE-F2-2Fs" secondAttribute="leading" id="oqY-KK-8zU"/>
                             <constraint firstItem="Sgg-8a-Ewo" firstAttribute="top" secondItem="yjJ-6M-lpe" secondAttribute="bottom" constant="20" id="war-Y5-xFf"/>
                             <constraint firstItem="szE-F2-2Fs" firstAttribute="trailing" secondItem="gIZ-Gi-svJ" secondAttribute="trailing" constant="40" id="x4I-hy-VwQ"/>
                         </constraints>
@@ -329,11 +331,13 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XDu-gZ-d3R">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 6" highlightedImage="tela 6" translatesAutoresizingMaskIntoConstraints="NO" id="XDu-gZ-d3R">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfL-lm-4rS">
                                 <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Ao se aproximar das criaturas você percebe que eles estão recolhendo frutas e se preparando para uma caçada, eles são seres altos, cerca de 2 metros, de suas cabeças saem tentáculos, o rosto deles lembra a estrutura do crânio de cavalos. Eles estão conversando e aparentemente se divertindo enquanto recolhem as frutas. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -352,12 +356,8 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <constraints>
                             <constraint firstItem="Iwu-FN-bYG" firstAttribute="bottom" secondItem="GeL-yo-jpL" secondAttribute="bottom" id="3GF-ds-g2I"/>
                             <constraint firstItem="GeL-yo-jpL" firstAttribute="trailing" secondItem="bfL-lm-4rS" secondAttribute="trailing" constant="20" id="3nC-S6-b7q"/>
-                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="trailing" secondItem="GeL-yo-jpL" secondAttribute="trailing" id="5C4-Gt-grg"/>
                             <constraint firstItem="Iwu-FN-bYG" firstAttribute="top" secondItem="bfL-lm-4rS" secondAttribute="bottom" constant="20" id="87D-sV-daJ"/>
-                            <constraint firstItem="bfL-lm-4rS" firstAttribute="top" secondItem="XDu-gZ-d3R" secondAttribute="bottom" constant="20" id="Jlr-fh-00F"/>
-                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" id="ZR1-6e-wlT"/>
                             <constraint firstItem="GeL-yo-jpL" firstAttribute="trailing" secondItem="Iwu-FN-bYG" secondAttribute="trailing" constant="135" id="ecW-33-jge"/>
-                            <constraint firstItem="XDu-gZ-d3R" firstAttribute="top" secondItem="J6P-7c-pJi" secondAttribute="top" id="gvk-eK-adx"/>
                             <constraint firstItem="Iwu-FN-bYG" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" constant="136" id="hel-j0-aY7"/>
                             <constraint firstItem="bfL-lm-4rS" firstAttribute="leading" secondItem="GeL-yo-jpL" secondAttribute="leading" constant="20" id="z9H-Fd-IH0"/>
                         </constraints>
@@ -366,7 +366,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hro-vF-KNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4881.159420289855" y="445.98214285714283"/>
+            <point key="canvasLocation" x="4879.7101449275369" y="445.98214285714283"/>
         </scene>
         <!--Alienigenas Sacam Armas View Controller-->
         <scene sceneID="fqf-PF-cer">
@@ -376,11 +376,13 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rio-P3-UNC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 11" highlightedImage="tela 11" translatesAutoresizingMaskIntoConstraints="NO" id="rio-P3-UNC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-wS-1Yy">
                                 <rect key="frame" x="20" y="629" width="374" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Porem no momento que você chega mais perto eles acabam te ouvindo e se assustam. Eles começam a falar muito alto em levantam as lanças contra você. 
 
 “Ow ow! Calma!”
@@ -409,17 +411,13 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="QwM-wS-1Yy" firstAttribute="top" secondItem="rio-P3-UNC" secondAttribute="bottom" constant="20" id="6Le-GQ-zD6"/>
                             <constraint firstItem="tOy-dZ-pXf" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" constant="40" id="6m6-gL-f3X"/>
                             <constraint firstItem="QwM-wS-1Yy" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" constant="20" id="7D1-rd-GAW"/>
                             <constraint firstItem="Bqs-Fd-hGv" firstAttribute="trailing" secondItem="xGQ-nr-u1Y" secondAttribute="trailing" constant="40" id="C63-eC-zsY"/>
-                            <constraint firstItem="rio-P3-UNC" firstAttribute="leading" secondItem="Bqs-Fd-hGv" secondAttribute="leading" id="CfT-uc-DML"/>
                             <constraint firstItem="tOy-dZ-pXf" firstAttribute="top" secondItem="QwM-wS-1Yy" secondAttribute="bottom" constant="20" id="RAI-bN-8Na"/>
                             <constraint firstItem="xGQ-nr-u1Y" firstAttribute="bottom" secondItem="Bqs-Fd-hGv" secondAttribute="bottom" id="TtU-pS-sO9"/>
-                            <constraint firstItem="rio-P3-UNC" firstAttribute="top" secondItem="2Wm-0p-etp" secondAttribute="top" id="dlW-bP-s8w"/>
                             <constraint firstItem="tOy-dZ-pXf" firstAttribute="bottom" secondItem="Bqs-Fd-hGv" secondAttribute="bottom" id="e9z-Uy-aZh"/>
                             <constraint firstItem="Bqs-Fd-hGv" firstAttribute="trailing" secondItem="QwM-wS-1Yy" secondAttribute="trailing" constant="20" id="t7k-7B-JQ5"/>
-                            <constraint firstItem="rio-P3-UNC" firstAttribute="trailing" secondItem="Bqs-Fd-hGv" secondAttribute="trailing" id="vaw-Yh-MKW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bqs-Fd-hGv"/>
                     </view>
@@ -436,11 +434,13 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-kA-LoD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 9" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-kA-LoD">
+                                <rect key="frame" x="0.0" y="-2" width="414" height="1093"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
                                 <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você não vai matar criaturas primitivas com uma arma laser, uma das poucas coisas que você ainda pode se orgulhar é de sua sanidade. Então decide abaixar a arma, ao fazer isso você percebe que aparentemente o líder daquele grupo manda os seus companheiros abaixarem as lanças também. Eles começam a falar e você decide ligar seu tradutor universal. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -457,13 +457,9 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vjT-kA-LoD" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" id="8K4-QA-pZb"/>
-                            <constraint firstItem="vjT-kA-LoD" firstAttribute="trailing" secondItem="qdw-sz-v9T" secondAttribute="trailing" id="DW1-2e-9UF"/>
                             <constraint firstItem="ZW9-LU-UF5" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" constant="20" id="QKC-UK-nSh"/>
                             <constraint firstItem="qdw-sz-v9T" firstAttribute="trailing" secondItem="ZW9-LU-UF5" secondAttribute="trailing" constant="20" id="XoL-IU-zLE"/>
                             <constraint firstItem="rsP-x8-oNh" firstAttribute="leading" secondItem="qdw-sz-v9T" secondAttribute="leading" constant="135" id="frE-V7-I9E"/>
-                            <constraint firstItem="vjT-kA-LoD" firstAttribute="top" secondItem="J7d-f9-Go9" secondAttribute="top" id="jnp-Qi-pWa"/>
-                            <constraint firstItem="ZW9-LU-UF5" firstAttribute="top" secondItem="vjT-kA-LoD" secondAttribute="bottom" constant="20" id="mt0-q7-xcZ"/>
                             <constraint firstItem="rsP-x8-oNh" firstAttribute="bottom" secondItem="qdw-sz-v9T" secondAttribute="bottom" id="oHR-nR-Dfg"/>
                             <constraint firstItem="qdw-sz-v9T" firstAttribute="trailing" secondItem="rsP-x8-oNh" secondAttribute="trailing" constant="136" id="p12-oh-edb"/>
                             <constraint firstItem="rsP-x8-oNh" firstAttribute="top" secondItem="ZW9-LU-UF5" secondAttribute="bottom" constant="20" id="qNb-rd-aMB"/>
@@ -483,8 +479,9 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-FV-2r2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="548.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aula" highlightedImage="aula" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-FV-2r2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTJ-Pl-ZG0">
                                 <rect key="frame" x="20" y="568.5" width="374" height="243.5"/>
@@ -508,15 +505,11 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fcv-FV-2r2" firstAttribute="trailing" secondItem="Vad-hd-3G5" secondAttribute="trailing" id="2Aq-WJ-Y3b"/>
                             <constraint firstItem="Vad-hd-3G5" firstAttribute="trailing" secondItem="UTJ-Pl-ZG0" secondAttribute="trailing" constant="20" id="5SZ-ln-HqZ"/>
                             <constraint firstItem="Vad-hd-3G5" firstAttribute="trailing" secondItem="Mnu-uu-Zgv" secondAttribute="trailing" constant="136" id="6s0-Ok-9Ns"/>
                             <constraint firstItem="UTJ-Pl-ZG0" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" constant="20" id="HRi-48-oDs"/>
-                            <constraint firstItem="UTJ-Pl-ZG0" firstAttribute="top" secondItem="fcv-FV-2r2" secondAttribute="bottom" constant="20" id="KYa-yp-W0b"/>
                             <constraint firstItem="Mnu-uu-Zgv" firstAttribute="bottom" secondItem="Vad-hd-3G5" secondAttribute="bottom" id="MER-Ao-Yx2"/>
-                            <constraint firstItem="fcv-FV-2r2" firstAttribute="top" secondItem="KkL-jB-kls" secondAttribute="top" id="OYf-Nk-Yav"/>
                             <constraint firstItem="Mnu-uu-Zgv" firstAttribute="top" secondItem="UTJ-Pl-ZG0" secondAttribute="bottom" constant="20" id="PuX-Re-cdL"/>
-                            <constraint firstItem="fcv-FV-2r2" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" id="mb0-90-SCw"/>
                             <constraint firstItem="Mnu-uu-Zgv" firstAttribute="leading" secondItem="Vad-hd-3G5" secondAttribute="leading" constant="135" id="r5M-5B-weD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vad-hd-3G5"/>
@@ -534,11 +527,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Pg-GAl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 7" highlightedImage="tela 7" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Pg-GAl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4D-Er-B20">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Eles parecem estar muito curiosos, são seres extremamente pacíficos. Eles te saúdam e começam a fazer varias perguntas. Cada vez mais os seres que estavam mais atrás vem se aproximando, então o líder decide perguntar para você se não gostaria de ir até a vila deles. 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -565,14 +560,10 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="j7X-yQ-XrQ" firstAttribute="trailing" secondItem="3iP-Nv-17o" secondAttribute="trailing" constant="40" id="0bg-TE-QGO"/>
-                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="top" secondItem="7Hs-mf-UWN" secondAttribute="top" id="3fz-v5-Z6g"/>
                             <constraint firstItem="j7X-yQ-XrQ" firstAttribute="trailing" secondItem="C4D-Er-B20" secondAttribute="trailing" constant="20" id="DPU-mw-t6h"/>
-                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="trailing" secondItem="j7X-yQ-XrQ" secondAttribute="trailing" id="DVs-xT-Z2Q"/>
                             <constraint firstItem="o23-2X-L6k" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" constant="40" id="OtX-CQ-t7J"/>
                             <constraint firstItem="3iP-Nv-17o" firstAttribute="bottom" secondItem="j7X-yQ-XrQ" secondAttribute="bottom" id="cSy-wa-c2C"/>
                             <constraint firstItem="o23-2X-L6k" firstAttribute="top" secondItem="C4D-Er-B20" secondAttribute="bottom" constant="20" id="dAS-Fw-kkL"/>
-                            <constraint firstItem="C4D-Er-B20" firstAttribute="top" secondItem="mQQ-Pg-GAl" secondAttribute="bottom" constant="20" id="hlW-Ac-acx"/>
-                            <constraint firstItem="mQQ-Pg-GAl" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" id="pbF-g2-yHo"/>
                             <constraint firstItem="o23-2X-L6k" firstAttribute="bottom" secondItem="j7X-yQ-XrQ" secondAttribute="bottom" id="pmG-Cw-JgW"/>
                             <constraint firstItem="C4D-Er-B20" firstAttribute="leading" secondItem="j7X-yQ-XrQ" secondAttribute="leading" constant="20" id="qot-ng-QZG"/>
                         </constraints>
@@ -591,8 +582,9 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dk-Xl-M3Y">
                                 <rect key="frame" x="20" y="688" width="374" height="124"/>
@@ -613,16 +605,12 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="dCc-qE-J9G" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" id="3RT-hc-cxa"/>
                             <constraint firstItem="S9i-Ro-zGh" firstAttribute="trailing" secondItem="8Dk-Xl-M3Y" secondAttribute="trailing" constant="20" id="671-eG-udV"/>
-                            <constraint firstItem="dCc-qE-J9G" firstAttribute="top" secondItem="0XR-p4-z8t" secondAttribute="top" id="Gf5-5i-uoM"/>
                             <constraint firstItem="3rD-tD-Hza" firstAttribute="bottom" secondItem="S9i-Ro-zGh" secondAttribute="bottom" id="eAO-jk-SJ6"/>
                             <constraint firstItem="3rD-tD-Hza" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" constant="136" id="ga2-cX-9Iu"/>
                             <constraint firstItem="3rD-tD-Hza" firstAttribute="top" secondItem="8Dk-Xl-M3Y" secondAttribute="bottom" constant="20" id="pnu-C4-Rc7"/>
-                            <constraint firstItem="8Dk-Xl-M3Y" firstAttribute="top" secondItem="dCc-qE-J9G" secondAttribute="bottom" constant="20" id="suu-x0-sOK"/>
                             <constraint firstItem="8Dk-Xl-M3Y" firstAttribute="leading" secondItem="S9i-Ro-zGh" secondAttribute="leading" constant="20" id="uQl-EE-eHh"/>
                             <constraint firstItem="S9i-Ro-zGh" firstAttribute="trailing" secondItem="3rD-tD-Hza" secondAttribute="trailing" constant="135" id="y4g-Kg-OhJ"/>
-                            <constraint firstItem="dCc-qE-J9G" firstAttribute="trailing" secondItem="S9i-Ro-zGh" secondAttribute="trailing" id="ye2-g7-do3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="S9i-Ro-zGh"/>
                     </view>
@@ -639,11 +627,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OrV-br-Vqb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chefe" highlightedImage="chefe" translatesAutoresizingMaskIntoConstraints="NO" id="OrV-br-Vqb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otD-wh-IiP">
                                 <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Ao chegar na vila, o chefe deles vem te receber com muita amizade, a vida é bem grande, todas as estruturas são mescladas com as grandes rochas que saem do solo, á vida é muito linda, você nunca viu tanta cor em algo, quando vivia na Terra você só via cinza, não espaço, a maior parte de tudo é preto… aquilo tudo é a cosia mais linda que você ja viu!   Você decide então passar um tempo na vila, aprendendo os costumes daquele povo, conhecendo sua cultura e se apaixonando por aqueles seres.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -660,12 +650,8 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="OrV-br-Vqb" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" id="0jS-OR-pVJ"/>
-                            <constraint firstItem="OrV-br-Vqb" firstAttribute="trailing" secondItem="j5q-C1-wWp" secondAttribute="trailing" id="3BM-bl-DFP"/>
-                            <constraint firstItem="OrV-br-Vqb" firstAttribute="top" secondItem="ZQU-Zh-tue" secondAttribute="top" id="41U-bg-l7p"/>
                             <constraint firstItem="j5q-C1-wWp" firstAttribute="trailing" secondItem="TG1-Ek-gne" secondAttribute="trailing" constant="136" id="4zT-zS-jh5"/>
                             <constraint firstItem="TG1-Ek-gne" firstAttribute="top" secondItem="otD-wh-IiP" secondAttribute="bottom" constant="20" id="AEe-B3-SYG"/>
-                            <constraint firstItem="otD-wh-IiP" firstAttribute="top" secondItem="OrV-br-Vqb" secondAttribute="bottom" constant="20" id="MS4-7Q-Dye"/>
                             <constraint firstItem="TG1-Ek-gne" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" constant="135" id="dd1-6r-kep"/>
                             <constraint firstItem="otD-wh-IiP" firstAttribute="leading" secondItem="j5q-C1-wWp" secondAttribute="leading" constant="20" id="dsu-3g-6in"/>
                             <constraint firstItem="j5q-C1-wWp" firstAttribute="trailing" secondItem="otD-wh-IiP" secondAttribute="trailing" constant="20" id="nLG-6O-47W"/>
@@ -686,11 +672,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2D-3T-CoU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 17" highlightedImage="tela 17" translatesAutoresizingMaskIntoConstraints="NO" id="e2D-3T-CoU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="985"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-Rq-LWX">
                                 <rect key="frame" x="20" y="629" width="374" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Todos esse tempo que você passou com os seres te fez repensar muito da sua vida e sobre tudo o que você sempre fez para aquele império ridículo… então você decide mandar um falso relatório, dizendo que não havia nada de útil naquele planeta e por fim, nada do que fazia antes faz sentido, então você decide debandar do império e por consequência se torna um exilado. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -708,11 +696,7 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3MB-Vq-Uys" firstAttribute="trailing" secondItem="MjO-5q-NHB" secondAttribute="trailing" constant="136" id="0Kn-sv-f7l"/>
-                            <constraint firstItem="e2D-3T-CoU" firstAttribute="trailing" secondItem="3MB-Vq-Uys" secondAttribute="trailing" id="43J-hV-2oy"/>
-                            <constraint firstItem="e2D-3T-CoU" firstAttribute="leading" secondItem="3MB-Vq-Uys" secondAttribute="leading" id="50W-ET-Z9W"/>
-                            <constraint firstItem="3DM-Rq-LWX" firstAttribute="top" secondItem="e2D-3T-CoU" secondAttribute="bottom" constant="20" id="59O-O2-tq3"/>
                             <constraint firstItem="3MB-Vq-Uys" firstAttribute="trailing" secondItem="3DM-Rq-LWX" secondAttribute="trailing" constant="20" id="SCs-X6-H8a"/>
-                            <constraint firstItem="e2D-3T-CoU" firstAttribute="top" secondItem="0sB-ox-x0T" secondAttribute="top" id="TG5-63-cqb"/>
                             <constraint firstItem="MjO-5q-NHB" firstAttribute="top" secondItem="3DM-Rq-LWX" secondAttribute="bottom" constant="20" id="cjr-CP-tzY"/>
                             <constraint firstItem="3DM-Rq-LWX" firstAttribute="leading" secondItem="3MB-Vq-Uys" secondAttribute="leading" constant="20" id="gKi-Vj-stW"/>
                             <constraint firstItem="MjO-5q-NHB" firstAttribute="bottom" secondItem="3MB-Vq-Uys" secondAttribute="bottom" id="m93-97-gr2"/>
@@ -733,11 +717,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ACp-Kx-CtW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="647.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 10" translatesAutoresizingMaskIntoConstraints="NO" id="ACp-Kx-CtW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1079"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-1x-ry5">
                                 <rect key="frame" x="20" y="667.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você nunca soube o que era paz, desde quando você se lembra, serve o império. Nunca teve família, ou um propósito. Agora você sente a vida realmente correndo pelas suas veias, vivendo naquela pequena vila alienígena.  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -755,13 +741,9 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="qSg-49-fQd" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" constant="135" id="1lh-ie-9Xv"/>
-                            <constraint firstItem="qVd-1x-ry5" firstAttribute="top" secondItem="ACp-Kx-CtW" secondAttribute="bottom" constant="20" id="21p-d7-d9Y"/>
                             <constraint firstItem="im8-rl-nFK" firstAttribute="trailing" secondItem="qSg-49-fQd" secondAttribute="trailing" constant="136" id="G32-Mj-n1O"/>
                             <constraint firstItem="qSg-49-fQd" firstAttribute="top" secondItem="qVd-1x-ry5" secondAttribute="bottom" constant="20" id="Ho1-bc-xZd"/>
                             <constraint firstItem="qSg-49-fQd" firstAttribute="bottom" secondItem="im8-rl-nFK" secondAttribute="bottom" id="PDa-dG-bRh"/>
-                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" id="Pig-1M-mYg"/>
-                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="trailing" secondItem="im8-rl-nFK" secondAttribute="trailing" id="QSD-Ey-46c"/>
-                            <constraint firstItem="ACp-Kx-CtW" firstAttribute="top" secondItem="Pwq-2o-zqa" secondAttribute="top" id="a5D-dk-WNy"/>
                             <constraint firstItem="qVd-1x-ry5" firstAttribute="leading" secondItem="im8-rl-nFK" secondAttribute="leading" constant="20" id="eqH-nI-Kl3"/>
                             <constraint firstItem="im8-rl-nFK" firstAttribute="trailing" secondItem="qVd-1x-ry5" secondAttribute="trailing" constant="20" id="nyY-s0-p2M"/>
                         </constraints>
@@ -934,11 +916,13 @@ A única coisa que você tem, que conseguiria dar para eles é sua medalha de ho
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SCQ-Yd-R71">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 18" translatesAutoresizingMaskIntoConstraints="NO" id="SCQ-Yd-R71">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0m-bG-v2V">
                                 <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você esta mexendo em sua medalha e esta pesando em todos esses anos de trabalho, em todos os relatórios que enviou e na quantidade de seres que deixou que fossem mortos… O quão horrível é isso…
 
 “Como eu posso ser um ser tão horrível… ser um veiculo para a morte de tantos inocentes? Eu não mereço nem o inferno…” 
@@ -959,12 +943,8 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="V0m-bG-v2V" firstAttribute="leading" secondItem="C9h-Pv-SCa" secondAttribute="leading" constant="20" id="C66-rc-Yj3"/>
-                            <constraint firstItem="SCQ-Yd-R71" firstAttribute="leading" secondItem="C9h-Pv-SCa" secondAttribute="leading" id="NhR-nt-5sM"/>
                             <constraint firstItem="wda-jk-PKC" firstAttribute="top" secondItem="V0m-bG-v2V" secondAttribute="bottom" constant="20" id="VeR-U7-YEK"/>
-                            <constraint firstItem="SCQ-Yd-R71" firstAttribute="top" secondItem="bk0-qH-GNY" secondAttribute="top" id="XZo-N2-OH2"/>
-                            <constraint firstItem="V0m-bG-v2V" firstAttribute="top" secondItem="SCQ-Yd-R71" secondAttribute="bottom" constant="20" id="YLJ-Bg-IaY"/>
                             <constraint firstItem="C9h-Pv-SCa" firstAttribute="trailing" secondItem="V0m-bG-v2V" secondAttribute="trailing" constant="20" id="YeY-gl-aBX"/>
-                            <constraint firstItem="SCQ-Yd-R71" firstAttribute="trailing" secondItem="C9h-Pv-SCa" secondAttribute="trailing" id="bQf-NY-FRJ"/>
                             <constraint firstItem="wda-jk-PKC" firstAttribute="bottom" secondItem="C9h-Pv-SCa" secondAttribute="bottom" id="n03-Dy-Zml"/>
                             <constraint firstItem="C9h-Pv-SCa" firstAttribute="trailing" secondItem="wda-jk-PKC" secondAttribute="trailing" constant="136" id="wJB-T4-djv"/>
                             <constraint firstItem="wda-jk-PKC" firstAttribute="leading" secondItem="C9h-Pv-SCa" secondAttribute="leading" constant="135" id="wd4-OB-1fM"/>
@@ -974,7 +954,7 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJb-0g-320" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10122" y="1777"/>
+            <point key="canvasLocation" x="10121.739130434784" y="1776.5625"/>
         </scene>
         <!--Aceitar View Controller-->
         <scene sceneID="XWe-4b-yf6">
@@ -1032,11 +1012,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P4b-nf-Q2i">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nave" highlightedImage="nave" translatesAutoresizingMaskIntoConstraints="NO" id="P4b-nf-Q2i">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwj-MG-2UK">
                                 <rect key="frame" x="20" y="629" width="374" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">O relatório acabou de ser enviado, você esta processando alguns dados quando acaba de receber o seu próximo planeta alvo, porém, após tudo o que passou e tudo o que sentiu naquele pequeno planetinha você decide por fim sair do império, mesmo sabendo que será caçado e provavelmente morto, se encontrado pelo império galáctico. Mas ao fim, sua consciência esta completamente limpa… </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1053,12 +1035,8 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Nwj-MG-2UK" firstAttribute="top" secondItem="P4b-nf-Q2i" secondAttribute="bottom" constant="20" id="2Gc-h2-t2m"/>
-                            <constraint firstItem="P4b-nf-Q2i" firstAttribute="leading" secondItem="C1h-Bo-cGU" secondAttribute="leading" id="HuM-UA-jfF"/>
-                            <constraint firstItem="P4b-nf-Q2i" firstAttribute="trailing" secondItem="C1h-Bo-cGU" secondAttribute="trailing" id="Onr-wQ-8uk"/>
                             <constraint firstItem="UzH-MR-STw" firstAttribute="bottom" secondItem="C1h-Bo-cGU" secondAttribute="bottom" id="XQY-Kx-0bf"/>
                             <constraint firstItem="UzH-MR-STw" firstAttribute="leading" secondItem="C1h-Bo-cGU" secondAttribute="leading" constant="135" id="ZQV-8r-4nu"/>
-                            <constraint firstItem="P4b-nf-Q2i" firstAttribute="top" secondItem="fXN-H8-7tk" secondAttribute="top" id="bv3-5f-KQQ"/>
                             <constraint firstItem="C1h-Bo-cGU" firstAttribute="trailing" secondItem="Nwj-MG-2UK" secondAttribute="trailing" constant="20" id="ctc-yY-a9K"/>
                             <constraint firstItem="C1h-Bo-cGU" firstAttribute="trailing" secondItem="UzH-MR-STw" secondAttribute="trailing" constant="136" id="eUS-jV-5kK"/>
                             <constraint firstItem="Nwj-MG-2UK" firstAttribute="leading" secondItem="C1h-Bo-cGU" secondAttribute="leading" constant="20" id="pH7-FQ-vWw"/>
@@ -1069,7 +1047,7 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xx0-JA-h6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10122" y="1116"/>
+            <point key="canvasLocation" x="10121.739130434784" y="1115.625"/>
         </scene>
         <!--Atirar View Controller-->
         <scene sceneID="D6u-Qf-URx">
@@ -1079,11 +1057,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="571"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 15" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="930"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjU-3L-3yO">
                                 <rect key="frame" x="20" y="591" width="374" height="203"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">No momento em que um dos seres se move para a sua direção, você puxa o gatilho da sua arma o tiro laser deixa o seres muito perplexos e assustados, isso faz com que eles, em desespero avancem contra você. Após alguns minutos a cena que você se depara é muito triste, todos estão mortos no chão, muito sangue roxo escorre pelos corpos. De repente você vê um doa alienígenas levantando e correndo para longe. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1111,15 +1091,11 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="yjU-3L-3yO" firstAttribute="top" secondItem="58Q-wo-lnu" secondAttribute="bottom" constant="20" id="5oe-td-IGa"/>
-                            <constraint firstItem="58Q-wo-lnu" firstAttribute="top" secondItem="axF-Gf-IXv" secondAttribute="top" id="DaA-a5-nGE"/>
                             <constraint firstItem="LnN-r2-lAW" firstAttribute="trailing" secondItem="Ujq-fk-w5H" secondAttribute="trailing" constant="40" id="ERI-S4-9bF"/>
                             <constraint firstItem="Ujq-fk-w5H" firstAttribute="bottom" secondItem="LnN-r2-lAW" secondAttribute="bottom" id="EUg-KZ-2RO"/>
                             <constraint firstItem="aAJ-hx-D2v" firstAttribute="bottom" secondItem="LnN-r2-lAW" secondAttribute="bottom" id="WlP-dy-Py4"/>
                             <constraint firstItem="aAJ-hx-D2v" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" constant="40" id="dGm-Wz-oop"/>
                             <constraint firstItem="aAJ-hx-D2v" firstAttribute="top" secondItem="yjU-3L-3yO" secondAttribute="bottom" constant="20" id="eOZ-sA-WAI"/>
-                            <constraint firstItem="58Q-wo-lnu" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" id="gf4-E3-9eQ"/>
-                            <constraint firstItem="58Q-wo-lnu" firstAttribute="trailing" secondItem="LnN-r2-lAW" secondAttribute="trailing" id="mJT-8E-MVi"/>
                             <constraint firstItem="yjU-3L-3yO" firstAttribute="leading" secondItem="LnN-r2-lAW" secondAttribute="leading" constant="20" id="npX-Kl-w85"/>
                             <constraint firstItem="LnN-r2-lAW" firstAttribute="trailing" secondItem="yjU-3L-3yO" secondAttribute="trailing" constant="20" id="zOf-NL-7UB"/>
                         </constraints>
@@ -1138,11 +1114,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-OH-Oqa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 8" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-OH-Oqa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1017"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKy-8O-RY8">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Todos esses anos de servidão e tristeza agora se voltam só em uma só coisa, sede por sangue… Você segue o alienígena miserável até a sua tribo, chegando la, o caos é instaurado. Um verdadeiro apocalipse para aqueles seres, e você pode, nesse momento, se intitular como um de seus cavaleiros. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1159,15 +1137,11 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="trailing" secondItem="0Sy-Gm-Ler" secondAttribute="trailing" id="3QI-zr-IOm"/>
                             <constraint firstItem="0Sy-Gm-Ler" firstAttribute="trailing" secondItem="GKy-8O-RY8" secondAttribute="trailing" constant="20" id="78F-er-wSl"/>
-                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="top" secondItem="rEU-lW-1AO" secondAttribute="top" id="PZw-tK-T4a"/>
                             <constraint firstItem="0Sy-Gm-Ler" firstAttribute="trailing" secondItem="EeU-v3-Rtq" secondAttribute="trailing" constant="136" id="Zt7-TU-dG8"/>
                             <constraint firstItem="EeU-v3-Rtq" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" constant="135" id="dYE-p8-6j1"/>
                             <constraint firstItem="EeU-v3-Rtq" firstAttribute="top" secondItem="GKy-8O-RY8" secondAttribute="bottom" constant="20" id="fMR-eW-gYh"/>
                             <constraint firstItem="EeU-v3-Rtq" firstAttribute="bottom" secondItem="0Sy-Gm-Ler" secondAttribute="bottom" id="fo5-rj-fJ7"/>
-                            <constraint firstItem="GKy-8O-RY8" firstAttribute="top" secondItem="1vB-OH-Oqa" secondAttribute="bottom" constant="20" id="hNI-vb-1sM"/>
-                            <constraint firstItem="1vB-OH-Oqa" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" id="t3P-8A-NSz"/>
                             <constraint firstItem="GKy-8O-RY8" firstAttribute="leading" secondItem="0Sy-Gm-Ler" secondAttribute="leading" constant="20" id="t4Q-RG-5Bo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Sy-Gm-Ler"/>
@@ -1185,11 +1159,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-5x-tjc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demionio" highlightedImage="demionio" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-5x-tjc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="990"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-nG-0GL">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Após algumas horas aquela vila nojenta esta em chamas, tudo esta destruído e você nunca esteve tão vivo, você então parte a diante, procurando mais daqueles seres primitivos para ceifar. Com o passar do tempo, você se tornou uma lenda naquele povo, uma espécie de demônio. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1207,14 +1183,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="D60-P4-Pkb" firstAttribute="trailing" secondItem="Fih-sT-Bm9" secondAttribute="trailing" constant="136" id="0mc-Or-WFi"/>
-                            <constraint firstItem="Y3H-nG-0GL" firstAttribute="top" secondItem="Wso-5x-tjc" secondAttribute="bottom" constant="20" id="31U-2a-iOb"/>
-                            <constraint firstItem="Wso-5x-tjc" firstAttribute="trailing" secondItem="D60-P4-Pkb" secondAttribute="trailing" id="BQo-rm-PoL"/>
                             <constraint firstItem="Fih-sT-Bm9" firstAttribute="bottom" secondItem="D60-P4-Pkb" secondAttribute="bottom" id="CfZ-id-dGy"/>
-                            <constraint firstItem="Wso-5x-tjc" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" id="JH3-SZ-wqT"/>
                             <constraint firstItem="Fih-sT-Bm9" firstAttribute="top" secondItem="Y3H-nG-0GL" secondAttribute="bottom" constant="20" id="R0A-Fb-ivA"/>
                             <constraint firstItem="D60-P4-Pkb" firstAttribute="trailing" secondItem="Y3H-nG-0GL" secondAttribute="trailing" constant="20" id="WQh-IB-h7t"/>
                             <constraint firstItem="Y3H-nG-0GL" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" constant="20" id="aX5-lw-u2a"/>
-                            <constraint firstItem="Wso-5x-tjc" firstAttribute="top" secondItem="fca-wL-RgW" secondAttribute="top" id="p3U-Qd-NOS"/>
                             <constraint firstItem="Fih-sT-Bm9" firstAttribute="leading" secondItem="D60-P4-Pkb" secondAttribute="leading" constant="135" id="p40-Dx-7qn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D60-P4-Pkb"/>
@@ -1232,11 +1204,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ih-iS-tqB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jornal" highlightedImage="jornal" translatesAutoresizingMaskIntoConstraints="NO" id="6ih-iS-tqB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrw-zA-uXj">
                                 <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">“E agora um comunicado do governo… Após os acontecimentos de Órus X-013	 virem a publico onde um dos nossos colonizadores em um acesso de fúria dizimou diversos seres alienígenas, ficou decidido que nas próximas missões não será mais permitido o uso de laser, somente armas tonteadoras. Um inquérito público foi aberto para investigar se o projeto colonizadores esta realmente respeitando a diretriz de não destruir planetas com formas de vida, traremos mais informações a seguir!"  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1255,14 +1229,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <constraints>
                             <constraint firstItem="Vrw-zA-uXj" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" constant="20" id="1od-8q-7n2"/>
                             <constraint firstItem="8mh-Fx-2zR" firstAttribute="trailing" secondItem="Vrw-zA-uXj" secondAttribute="trailing" constant="20" id="QSl-Az-rcf"/>
-                            <constraint firstItem="6ih-iS-tqB" firstAttribute="trailing" secondItem="8mh-Fx-2zR" secondAttribute="trailing" id="hzm-gl-Jqh"/>
-                            <constraint firstItem="6ih-iS-tqB" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" id="ibT-Qg-UE7"/>
                             <constraint firstItem="UXY-44-TkS" firstAttribute="top" secondItem="Vrw-zA-uXj" secondAttribute="bottom" constant="20" id="jKg-TH-VGf"/>
-                            <constraint firstItem="6ih-iS-tqB" firstAttribute="top" secondItem="Pcu-zL-yeZ" secondAttribute="top" id="o8I-46-loF"/>
                             <constraint firstItem="UXY-44-TkS" firstAttribute="leading" secondItem="8mh-Fx-2zR" secondAttribute="leading" constant="135" id="pSG-03-C3N"/>
                             <constraint firstItem="8mh-Fx-2zR" firstAttribute="trailing" secondItem="UXY-44-TkS" secondAttribute="trailing" constant="136" id="qhV-lx-eeK"/>
                             <constraint firstItem="UXY-44-TkS" firstAttribute="bottom" secondItem="8mh-Fx-2zR" secondAttribute="bottom" id="xZp-Ro-IPi"/>
-                            <constraint firstItem="Vrw-zA-uXj" firstAttribute="top" secondItem="6ih-iS-tqB" secondAttribute="bottom" constant="20" id="yob-EX-ctU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8mh-Fx-2zR"/>
                     </view>
@@ -1279,8 +1249,9 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alG-wr-DaB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exploracao" translatesAutoresizingMaskIntoConstraints="NO" id="alG-wr-DaB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="966"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-DK-5H5">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
@@ -1301,14 +1272,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="fW4-C9-ItP" firstAttribute="bottom" secondItem="iYK-h5-g6a" secondAttribute="bottom" id="1Zx-JN-0Xq"/>
-                            <constraint firstItem="alG-wr-DaB" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" id="LOK-s7-n22"/>
                             <constraint firstItem="iYK-h5-g6a" firstAttribute="trailing" secondItem="fW4-C9-ItP" secondAttribute="trailing" constant="136" id="PyZ-0f-Tfg"/>
                             <constraint firstItem="fW4-C9-ItP" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" constant="135" id="WhV-sO-oCf"/>
                             <constraint firstItem="fW4-C9-ItP" firstAttribute="top" secondItem="UXt-DK-5H5" secondAttribute="bottom" constant="20" id="alg-L9-cTR"/>
                             <constraint firstItem="iYK-h5-g6a" firstAttribute="trailing" secondItem="UXt-DK-5H5" secondAttribute="trailing" constant="20" id="ey9-Su-CCz"/>
-                            <constraint firstItem="alG-wr-DaB" firstAttribute="trailing" secondItem="iYK-h5-g6a" secondAttribute="trailing" id="nul-hT-xYk"/>
-                            <constraint firstItem="alG-wr-DaB" firstAttribute="top" secondItem="Odb-l0-Pj3" secondAttribute="top" id="ymx-6t-axz"/>
-                            <constraint firstItem="UXt-DK-5H5" firstAttribute="top" secondItem="alG-wr-DaB" secondAttribute="bottom" constant="20" id="zA8-Wd-lfy"/>
                             <constraint firstItem="UXt-DK-5H5" firstAttribute="leading" secondItem="iYK-h5-g6a" secondAttribute="leading" constant="20" id="zNr-pT-vGi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iYK-h5-g6a"/>
@@ -1326,11 +1293,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u35-Rs-FPk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exploracao" translatesAutoresizingMaskIntoConstraints="NO" id="u35-Rs-FPk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="960"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlg-nM-Enm">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">A primeira diretriz e mais essencial de todas é a de contato, ela diz “ não se aproxime de seres que ainda não descobriram a viagem intergaláctica, ao se deparar com esse caso, de meia volta.”
 Então você decide dar meia volta e prosseguir à diante com a sua missão.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1348,15 +1317,11 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="u35-Rs-FPk" firstAttribute="top" secondItem="3GW-hg-6yw" secondAttribute="top" id="GkU-jv-FWj"/>
                             <constraint firstItem="AG1-w3-6cU" firstAttribute="top" secondItem="vlg-nM-Enm" secondAttribute="bottom" constant="20" id="R0B-q6-Szx"/>
                             <constraint firstItem="BUR-md-eSO" firstAttribute="trailing" secondItem="vlg-nM-Enm" secondAttribute="trailing" constant="20" id="X12-qE-1Dk"/>
                             <constraint firstItem="AG1-w3-6cU" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" constant="135" id="f7O-hb-NzS"/>
                             <constraint firstItem="AG1-w3-6cU" firstAttribute="bottom" secondItem="BUR-md-eSO" secondAttribute="bottom" id="gqQ-pk-nj1"/>
                             <constraint firstItem="vlg-nM-Enm" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" constant="20" id="l3x-N3-Q9k"/>
-                            <constraint firstItem="u35-Rs-FPk" firstAttribute="leading" secondItem="BUR-md-eSO" secondAttribute="leading" id="ndS-eJ-jnQ"/>
-                            <constraint firstItem="u35-Rs-FPk" firstAttribute="trailing" secondItem="BUR-md-eSO" secondAttribute="trailing" id="rSf-Td-btE"/>
-                            <constraint firstItem="vlg-nM-Enm" firstAttribute="top" secondItem="u35-Rs-FPk" secondAttribute="bottom" constant="20" id="t0A-dI-yB4"/>
                             <constraint firstItem="BUR-md-eSO" firstAttribute="trailing" secondItem="AG1-w3-6cU" secondAttribute="trailing" constant="136" id="x6O-rF-z21"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BUR-md-eSO"/>
@@ -1374,8 +1339,13 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 14" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-cZ-mlz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="977"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gp-8h-q0b">
                                 <rect key="frame" x="20" y="690" width="374" height="122"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você prossegue cautelosamente na sua missão, se depara com os seres diversas vezes e por conta disso decide partir em direção a outra área do planeta para terminar sua missão sem correr os riscos de um contato inesperado. 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1390,20 +1360,12 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                                     <segue destination="c4O-hZ-SCF" kind="show" id="kKL-sG-OXa"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-cZ-mlz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9gp-8h-q0b" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" constant="20" id="0TI-8v-nZ0"/>
-                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="top" secondItem="0Rx-3v-Kbz" secondAttribute="top" id="7xI-PP-p5v"/>
-                            <constraint firstItem="9gp-8h-q0b" firstAttribute="top" secondItem="Yzq-cZ-mlz" secondAttribute="bottom" constant="20" id="Fya-Tg-L0j"/>
                             <constraint firstItem="RpK-i9-IRO" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" constant="135" id="Jhx-rg-y6D"/>
-                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="top" secondItem="0Rx-3v-Kbz" secondAttribute="top" id="KU2-LK-K1T"/>
-                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="leading" secondItem="Cub-ub-lUi" secondAttribute="leading" id="Qyf-gD-3Vw"/>
                             <constraint firstItem="Cub-ub-lUi" firstAttribute="trailing" secondItem="RpK-i9-IRO" secondAttribute="trailing" constant="136" id="Tyy-TK-Lac"/>
-                            <constraint firstItem="Yzq-cZ-mlz" firstAttribute="trailing" secondItem="Cub-ub-lUi" secondAttribute="trailing" id="Xhp-ak-Jba"/>
                             <constraint firstItem="Cub-ub-lUi" firstAttribute="trailing" secondItem="9gp-8h-q0b" secondAttribute="trailing" constant="20" id="aXw-WG-tFg"/>
                             <constraint firstItem="RpK-i9-IRO" firstAttribute="bottom" secondItem="Cub-ub-lUi" secondAttribute="bottom" id="ihk-ud-T9m"/>
                             <constraint firstItem="RpK-i9-IRO" firstAttribute="top" secondItem="9gp-8h-q0b" secondAttribute="bottom" constant="20" id="mEb-wW-ffn"/>
@@ -1423,8 +1385,9 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-Xb-2Yz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 20" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-Xb-2Yz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1049"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hO-IV-dux">
                                 <rect key="frame" x="20" y="690" width="374" height="122"/>
@@ -1444,15 +1407,11 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="trailing" secondItem="EkU-l5-rZA" secondAttribute="trailing" id="4cf-DK-FhK"/>
                             <constraint firstItem="3hO-IV-dux" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" constant="20" id="8Hm-Bv-GcJ"/>
                             <constraint firstItem="Pqz-eT-g48" firstAttribute="top" secondItem="3hO-IV-dux" secondAttribute="bottom" constant="20" id="9eU-0O-Z9E"/>
-                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="top" secondItem="3kU-y7-FqE" secondAttribute="top" id="Lz5-0i-dll"/>
                             <constraint firstItem="EkU-l5-rZA" firstAttribute="trailing" secondItem="3hO-IV-dux" secondAttribute="trailing" constant="20" id="Sqf-8Q-NyU"/>
-                            <constraint firstItem="3hO-IV-dux" firstAttribute="top" secondItem="Qda-Xb-2Yz" secondAttribute="bottom" constant="20" id="WQ1-aa-0WU"/>
                             <constraint firstItem="Pqz-eT-g48" firstAttribute="bottom" secondItem="EkU-l5-rZA" secondAttribute="bottom" id="Yys-vq-YNZ"/>
                             <constraint firstItem="EkU-l5-rZA" firstAttribute="trailing" secondItem="Pqz-eT-g48" secondAttribute="trailing" constant="136" id="lw4-KG-MPQ"/>
-                            <constraint firstItem="Qda-Xb-2Yz" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" id="uga-gW-1Yq"/>
                             <constraint firstItem="Pqz-eT-g48" firstAttribute="leading" secondItem="EkU-l5-rZA" secondAttribute="leading" constant="135" id="zdR-1h-U2W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EkU-l5-rZA"/>
@@ -1470,11 +1429,13 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mFN-Ty-PAF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="528"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 19" translatesAutoresizingMaskIntoConstraints="NO" id="mFN-Ty-PAF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="776"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYk-RH-OBf">
                                 <rect key="frame" x="20" y="548" width="374" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Enquanto toma um café na sua nave, durante outra missão você recebe um chamado, abrindo você se depara com a menagem:
 
 "Parabéns pelo seu quinquagésimo planeta revisado, agradecemos muito seu excelente serviço para o grande Império. Gostaríamos de informar que, graças ao seu relatório sobre o planeta Órus X-013 encontramos uma grande quantidade de material radioativo, graças a você a humanidade esta mais segura!"  Fim!</string>
@@ -1494,15 +1455,11 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UD0-bx-OrI" firstAttribute="trailing" secondItem="qjF-JS-oEu" secondAttribute="trailing" constant="136" id="89o-ds-QCJ"/>
-                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" id="LzL-QK-ZLd"/>
-                            <constraint firstItem="LYk-RH-OBf" firstAttribute="top" secondItem="mFN-Ty-PAF" secondAttribute="bottom" constant="20" id="OLC-sQ-sed"/>
                             <constraint firstItem="LYk-RH-OBf" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" constant="20" id="RqN-0A-DvL"/>
                             <constraint firstItem="UD0-bx-OrI" firstAttribute="trailing" secondItem="LYk-RH-OBf" secondAttribute="trailing" constant="20" id="bmR-IG-OuL"/>
                             <constraint firstItem="qjF-JS-oEu" firstAttribute="bottom" secondItem="UD0-bx-OrI" secondAttribute="bottom" id="cd3-xh-jYo"/>
                             <constraint firstItem="qjF-JS-oEu" firstAttribute="leading" secondItem="UD0-bx-OrI" secondAttribute="leading" constant="135" id="gF9-Au-SY5"/>
-                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="top" secondItem="SgO-Gz-zo2" secondAttribute="top" id="oER-hz-9e4"/>
                             <constraint firstItem="qjF-JS-oEu" firstAttribute="top" secondItem="LYk-RH-OBf" secondAttribute="bottom" constant="20" id="vKg-uW-yaj"/>
-                            <constraint firstItem="mFN-Ty-PAF" firstAttribute="trailing" secondItem="UD0-bx-OrI" secondAttribute="trailing" id="zp2-to-AHP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UD0-bx-OrI"/>
                     </view>
@@ -1525,6 +1482,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yga-3F-vv7">
                                 <rect key="frame" x="20" y="690" width="374" height="122"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você da as costas para aquelas criaturas e volta a fazer deus estudos e a examinar o ambiente.
 
 “Foco! Não tenho tempo e nem vontade para ficar indo atras de animais alienígenas… vamos a isso, quero sair logo desse planeta…”</string>
@@ -1579,6 +1537,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYX-Ku-tsC">
                                 <rect key="frame" x="20" y="568.5" width="374" height="243.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você decide começar a examinas pedras, tentar descobrir quais elementos consegue encontrar naquele planeta. Você se aproxima de algumas rochas alaranjadas, provavelmente ferro.
 
 “Vamos às pedras logo… é sempre isso que procuram mesmo… metais ridículos para fazer naves ridículas…”
@@ -1607,18 +1566,36 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
         </scene>
     </scenes>
     <resources>
+        <image name="aula" width="1125" height="2436"/>
+        <image name="chefe" width="1125" height="2436"/>
+        <image name="demionio" width="1125" height="2436"/>
+        <image name="exploracao" width="1125" height="2436"/>
+        <image name="jornal" width="1125" height="2436"/>
+        <image name="nave" width="1125" height="2436"/>
+        <image name="tela 10" width="1125" height="2436"/>
+        <image name="tela 11" width="1125" height="2436"/>
+        <image name="tela 14" width="1125" height="2436"/>
+        <image name="tela 15" width="1125" height="2436"/>
+        <image name="tela 17" width="1125" height="2436"/>
+        <image name="tela 18" width="1125" height="2436"/>
+        <image name="tela 19" width="1125" height="2436"/>
         <image name="tela 2" width="1687.5" height="3654"/>
+        <image name="tela 20" width="1125" height="2436"/>
         <image name="tela 3 pedras" width="1125" height="2436"/>
         <image name="tela 3 plantas" width="1125" height="2436"/>
         <image name="tela 4" width="1125" height="2436"/>
         <image name="tela 5 - ignoprar" width="1125" height="2436"/>
         <image name="tela 5 - interagir" width="1125" height="2436"/>
+        <image name="tela 6" width="1125" height="2436"/>
+        <image name="tela 7" width="1125" height="2436"/>
+        <image name="tela 8" width="1125" height="2436"/>
+        <image name="tela 9" width="1125" height="2436"/>
         <image name="tela1" width="1125" height="2436"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="7bT-jN-g2W"/>
-        <segue reference="HV8-CB-rYC"/>
-        <segue reference="Ot1-gV-0GJ"/>
-        <segue reference="7CU-vl-UWZ"/>
+        <segue reference="DZu-bh-qZ4"/>
+        <segue reference="FNb-jy-0Fm"/>
+        <segue reference="6Nt-8g-Dqp"/>
     </inferredMetricsTieBreakers>
 </document>

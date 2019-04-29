@@ -66,7 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D43A2F8622767F9000B53F42 /* Ether_Oar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ether_Oar.mp3; path = ../../../../Downloads/Ether_Oar.mp3; sourceTree = "<group>"; };
+		D43A2F8622767F9000B53F42 /* Ether_Oar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ether_Oar.mp3; path = "/Users/leonardopalinkas/Documents/Aulas_Academy/Projeto 1 - livrojogo/Projeto 1 - livrojogo/../../../../Downloads/Ether_Oar.mp3"; sourceTree = "<absolute>"; };
 		D43D840522733FB600843AE6 /* Projeto 1 - livrojogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto 1 - livrojogo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43D840822733FB600843AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D43D840A22733FB600843AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
