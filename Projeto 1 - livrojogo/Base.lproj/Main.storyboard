@@ -582,12 +582,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="encontro" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="974"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dk-Xl-M3Y">
                                 <rect key="frame" x="20" y="688" width="374" height="124"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Provavelmente você ja será punido pelo contato então da de ombros e decide segui-los até a vila, agradece muito o convite e começa a seguir o líder, bem a frente do grupo. Agora prestando mais atenção você vê o quão lindo é aquele planeta
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -762,11 +763,13 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uTU-oy-jp9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chefe" translatesAutoresizingMaskIntoConstraints="NO" id="uTU-oy-jp9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMc-iL-Aq6">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você agradece muito o convite porem recusa.
 
 “muito obrigado mas preciso retornar para a minha família, eles sentem minha falta” 
@@ -786,15 +789,11 @@ Eles entendem isso e desenham a você boa sorte e uma boa viagem.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YMc-iL-Aq6" firstAttribute="top" secondItem="uTU-oy-jp9" secondAttribute="bottom" constant="20" id="0zJ-SX-zLG"/>
-                            <constraint firstItem="uTU-oy-jp9" firstAttribute="top" secondItem="vmX-CM-NXk" secondAttribute="top" id="EP3-kY-MLG"/>
                             <constraint firstItem="tOB-cG-Z4g" firstAttribute="trailing" secondItem="PK5-iv-ngj" secondAttribute="trailing" constant="136" id="Gg4-gR-eeT"/>
                             <constraint firstItem="PK5-iv-ngj" firstAttribute="leading" secondItem="tOB-cG-Z4g" secondAttribute="leading" constant="135" id="QJV-sa-1Gm"/>
                             <constraint firstItem="PK5-iv-ngj" firstAttribute="top" secondItem="YMc-iL-Aq6" secondAttribute="bottom" constant="20" id="aQz-ve-f0l"/>
-                            <constraint firstItem="uTU-oy-jp9" firstAttribute="leading" secondItem="tOB-cG-Z4g" secondAttribute="leading" id="guy-7v-T99"/>
                             <constraint firstItem="PK5-iv-ngj" firstAttribute="bottom" secondItem="tOB-cG-Z4g" secondAttribute="bottom" id="lhx-L2-4FR"/>
                             <constraint firstItem="tOB-cG-Z4g" firstAttribute="trailing" secondItem="YMc-iL-Aq6" secondAttribute="trailing" constant="20" id="sW0-rF-7p0"/>
-                            <constraint firstItem="uTU-oy-jp9" firstAttribute="trailing" secondItem="tOB-cG-Z4g" secondAttribute="trailing" id="wdJ-LZ-ZO4"/>
                             <constraint firstItem="YMc-iL-Aq6" firstAttribute="leading" secondItem="tOB-cG-Z4g" secondAttribute="leading" constant="20" id="xzQ-kx-otx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tOB-cG-Z4g"/>
@@ -802,7 +801,7 @@ Eles entendem isso e desenham a você boa sorte e uma boa viagem.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EY5-WL-MJu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7901" y="1414"/>
+            <point key="canvasLocation" x="7900.0000000000009" y="1413.6160714285713"/>
         </scene>
         <!--Presente View Controller-->
         <scene sceneID="nGV-Tz-XXe">
@@ -812,11 +811,13 @@ Eles entendem isso e desenham a você boa sorte e uma boa viagem.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuK-ex-DHz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="encontro" translatesAutoresizingMaskIntoConstraints="NO" id="nuK-ex-DHz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="960"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAw-wG-KDK">
                                 <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Todos estão te cumprimentando e desenhando boas vibrações quando eles começam a te entregar presentes, frutas, alguns objetos e roupas. Eles são muito pacíficos e bondosos.
 A única coisa que você tem, que conseguiria dar para eles é sua medalha de honra, dada à você pelo general da missão Colonização. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -846,13 +847,9 @@ A única coisa que você tem, que conseguiria dar para eles é sua medalha de ho
                             <constraint firstItem="XAw-wG-KDK" firstAttribute="leading" secondItem="4sc-2b-Duo" secondAttribute="leading" constant="20" id="4xT-rp-KUk"/>
                             <constraint firstItem="XOg-M4-EF6" firstAttribute="leading" secondItem="4sc-2b-Duo" secondAttribute="leading" constant="40" id="O0S-Tu-UPM"/>
                             <constraint firstAttribute="bottomMargin" secondItem="lhq-XA-RJu" secondAttribute="bottom" id="bce-ti-mFM"/>
-                            <constraint firstItem="nuK-ex-DHz" firstAttribute="trailing" secondItem="4sc-2b-Duo" secondAttribute="trailing" id="kDH-6P-tAv"/>
-                            <constraint firstItem="XAw-wG-KDK" firstAttribute="top" secondItem="nuK-ex-DHz" secondAttribute="bottom" constant="20" id="n6R-Cf-Taj"/>
                             <constraint firstItem="4sc-2b-Duo" firstAttribute="trailing" secondItem="lhq-XA-RJu" secondAttribute="trailing" constant="40" id="qqc-Po-5Zf"/>
                             <constraint firstAttribute="bottomMargin" secondItem="XOg-M4-EF6" secondAttribute="bottom" id="tSG-zQ-6YR"/>
-                            <constraint firstItem="nuK-ex-DHz" firstAttribute="top" secondItem="bsA-wZ-lrJ" secondAttribute="top" id="wac-J0-Jxm"/>
                             <constraint firstItem="4sc-2b-Duo" firstAttribute="trailing" secondItem="XAw-wG-KDK" secondAttribute="trailing" constant="20" id="z5b-6W-F5K"/>
-                            <constraint firstItem="nuK-ex-DHz" firstAttribute="leading" secondItem="4sc-2b-Duo" secondAttribute="leading" id="zII-Va-yVd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4sc-2b-Duo"/>
                     </view>
@@ -869,11 +866,13 @@ A única coisa que você tem, que conseguiria dar para eles é sua medalha de ho
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x74-cR-v98">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="690.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="triste" translatesAutoresizingMaskIntoConstraints="NO" id="x74-cR-v98">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjA-0T-1qi">
                                 <rect key="frame" x="20" y="710.5" width="374" height="101.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você guarda sua medalha, recusa os presentes porem agradece muito a cordialidade deles. Volta para sua nave para terminar o relatório. Você nunca tinha demorado tanto tempo para finalizar um relatório como dessa vez. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -891,22 +890,18 @@ A única coisa que você tem, que conseguiria dar para eles é sua medalha de ho
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="xHD-iK-wjk" firstAttribute="trailing" secondItem="ZjA-0T-1qi" secondAttribute="trailing" constant="20" id="5jV-bf-jfg"/>
-                            <constraint firstItem="x74-cR-v98" firstAttribute="trailing" secondItem="xHD-iK-wjk" secondAttribute="trailing" id="RIt-iJ-vCi"/>
-                            <constraint firstItem="x74-cR-v98" firstAttribute="top" secondItem="nla-3c-Pxc" secondAttribute="top" id="WRh-s6-fK7"/>
                             <constraint firstItem="N8W-KL-ry2" firstAttribute="top" secondItem="ZjA-0T-1qi" secondAttribute="bottom" constant="20" id="jKq-JK-DbQ"/>
                             <constraint firstItem="xHD-iK-wjk" firstAttribute="trailing" secondItem="N8W-KL-ry2" secondAttribute="trailing" constant="136" id="naq-hb-oMP"/>
                             <constraint firstItem="N8W-KL-ry2" firstAttribute="leading" secondItem="xHD-iK-wjk" secondAttribute="leading" constant="135" id="ojb-JK-Sbd"/>
                             <constraint firstItem="ZjA-0T-1qi" firstAttribute="leading" secondItem="xHD-iK-wjk" secondAttribute="leading" constant="20" id="qRq-XS-QAI"/>
                             <constraint firstItem="N8W-KL-ry2" firstAttribute="bottom" secondItem="xHD-iK-wjk" secondAttribute="bottom" id="rb5-EJ-xAk"/>
-                            <constraint firstItem="ZjA-0T-1qi" firstAttribute="top" secondItem="x74-cR-v98" secondAttribute="bottom" constant="20" id="ysd-dF-78c"/>
-                            <constraint firstItem="x74-cR-v98" firstAttribute="leading" secondItem="xHD-iK-wjk" secondAttribute="leading" id="zHy-wf-J5Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xHD-iK-wjk"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hf-An-gxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9383" y="1777"/>
+            <point key="canvasLocation" x="9382.608695652174" y="1776.5625"/>
         </scene>
         <!--Suicidio View Controller-->
         <scene sceneID="pjC-U9-Vqj">
@@ -964,11 +959,13 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vvm-13-jTc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duvida" translatesAutoresizingMaskIntoConstraints="NO" id="Vvm-13-jTc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVd-42-C3G">
                                 <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Você retribui os presentes dados por eles, entrega a antiga medalha de honra na mão do chefe da vila, agradece muito a atenção deles e parte para a sua nave, porém ao chegar nela decide falsificar o relatório e enviar dados que diziam que o planeta era pobre em minerais uteis. 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -988,13 +985,9 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <constraints>
                             <constraint firstItem="jqQ-oK-C80" firstAttribute="top" secondItem="fVd-42-C3G" secondAttribute="bottom" constant="20" id="0Dy-hi-ggt"/>
                             <constraint firstItem="jqQ-oK-C80" firstAttribute="leading" secondItem="mzb-tc-9Bo" secondAttribute="leading" constant="135" id="0V8-Og-4co"/>
-                            <constraint firstItem="Vvm-13-jTc" firstAttribute="trailing" secondItem="mzb-tc-9Bo" secondAttribute="trailing" id="1Jz-ij-LQ6"/>
                             <constraint firstItem="jqQ-oK-C80" firstAttribute="bottom" secondItem="mzb-tc-9Bo" secondAttribute="bottom" id="CKe-mF-fzn"/>
                             <constraint firstItem="mzb-tc-9Bo" firstAttribute="trailing" secondItem="jqQ-oK-C80" secondAttribute="trailing" constant="136" id="NQh-fm-Ld7"/>
                             <constraint firstItem="mzb-tc-9Bo" firstAttribute="trailing" secondItem="fVd-42-C3G" secondAttribute="trailing" constant="20" id="NoY-u8-2Qs"/>
-                            <constraint firstItem="Vvm-13-jTc" firstAttribute="top" secondItem="dkj-uH-Se6" secondAttribute="top" id="cvC-qB-PcM"/>
-                            <constraint firstItem="Vvm-13-jTc" firstAttribute="leading" secondItem="mzb-tc-9Bo" secondAttribute="leading" id="eP5-fh-r7i"/>
-                            <constraint firstItem="fVd-42-C3G" firstAttribute="top" secondItem="Vvm-13-jTc" secondAttribute="bottom" constant="20" id="ibv-4a-y0N"/>
                             <constraint firstItem="fVd-42-C3G" firstAttribute="leading" secondItem="mzb-tc-9Bo" secondAttribute="leading" constant="20" id="xwB-ZN-QIP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mzb-tc-9Bo"/>
@@ -1002,7 +995,7 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3w-hm-vfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9383" y="1116"/>
+            <point key="canvasLocation" x="9382.608695652174" y="1115.625"/>
         </scene>
         <!--Eremita View Controller-->
         <scene sceneID="pSi-8x-TOK">
@@ -1057,8 +1050,8 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 15" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="930"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arma" translatesAutoresizingMaskIntoConstraints="NO" id="58Q-wo-lnu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="975"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjU-3L-3yO">
@@ -1566,16 +1559,18 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
         </scene>
     </scenes>
     <resources>
+        <image name="arma" width="1125" height="2436"/>
         <image name="aula" width="1125" height="2436"/>
         <image name="chefe" width="1125" height="2436"/>
         <image name="demionio" width="1125" height="2436"/>
+        <image name="duvida" width="1125" height="2436"/>
+        <image name="encontro" width="1125" height="2436"/>
         <image name="exploracao" width="1125" height="2436"/>
         <image name="jornal" width="1125" height="2436"/>
         <image name="nave" width="1125" height="2436"/>
         <image name="tela 10" width="1125" height="2436"/>
         <image name="tela 11" width="1125" height="2436"/>
         <image name="tela 14" width="1125" height="2436"/>
-        <image name="tela 15" width="1125" height="2436"/>
         <image name="tela 17" width="1125" height="2436"/>
         <image name="tela 18" width="1125" height="2436"/>
         <image name="tela 19" width="1125" height="2436"/>
@@ -1591,11 +1586,12 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
         <image name="tela 8" width="1125" height="2436"/>
         <image name="tela 9" width="1125" height="2436"/>
         <image name="tela1" width="1125" height="2436"/>
+        <image name="triste" width="1125" height="2436"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="7bT-jN-g2W"/>
         <segue reference="DZu-bh-qZ4"/>
         <segue reference="FNb-jy-0Fm"/>
-        <segue reference="6Nt-8g-Dqp"/>
+        <segue reference="7CU-vl-UWZ"/>
     </inferredMetricsTieBreakers>
 </document>
