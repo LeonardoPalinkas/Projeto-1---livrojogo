@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -84,7 +84,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-6l-UUt">
-                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <rect key="frame" x="20" y="629" width="374" height="183"/>
                                 <string key="text">Descendo da nave você se depara com um lindo e exuberante planeta, ele tem muitas formas de vida, o ar é limpo e é incrivelmente leve, uma neblina azulada paira no ar enquanto você começa a organizar seus equipamentos e se prepara pra recolher amostras. 
 
 “Ok, vamos lá… agora devo começar a examinar esse planeta, devo começar por onde?”</string>
@@ -118,7 +118,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 3 plantas" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-Ao-gd9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 3 plantas" highlightedImage="tela 3 plantas" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-Ao-gd9">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="637"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -168,7 +168,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 4" translatesAutoresizingMaskIntoConstraints="NO" id="3Aq-gV-z9H">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 4" highlightedImage="tela 4" translatesAutoresizingMaskIntoConstraints="NO" id="3Aq-gV-z9H">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="824"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -228,7 +228,7 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-P0-NAG">
-                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <rect key="frame" x="20" y="629" width="374" height="183"/>
                                 <string key="text">Você vai em direção das pequenas criaturas, sua gigantesca mãe esta acima de vocês, ela quase não se importa com o pequeno ser bípede que esta ao seus pés. Quando você se abaixa para interagir com elas, os pequeninos correm em sua direção e pulam em você como se fossem cachorrinhos pescoçudos.
 
 “Oi pequeninos! Tudo bem com vocês hahaha”</string>
@@ -270,10 +270,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-6J-OO1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.66666666666669"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="507.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjJ-6M-lpe">
-                                <rect key="frame" x="20" y="527.66666666666663" width="374" height="284.33333333333337"/>
+                                <rect key="frame" x="20" y="527.5" width="374" height="284.5"/>
                                 <string key="text">Você continua à seguir seu rumo, já esta a algumas horas processando dados e recolhendo amostras quando, ao subir uma planície você se depara com novos seres, porem esses são bípedes e parecem estar com lanças primitivas, algumas cestas com frutas e tábuas com uma especie de carne. 
 
 “…entrada X-013 AB0566, dia um, acabo de localizar seres aparentemente inteligentes, eles estão recolhendo alimentos e recursos… aparentemente estão em uma fase tribal de evolução…”
@@ -330,10 +330,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XDu-gZ-d3R">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfL-lm-4rS">
-                                <rect key="frame" x="20" y="649.66666666666663" width="374" height="162.33333333333337"/>
+                                <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
                                 <string key="text">Ao se aproximar das criaturas você percebe que eles estão recolhendo frutas e se preparando para uma caçada, eles são seres altos, cerca de 2 metros, de suas cabeças saem tentáculos, o rosto deles lembra a estrutura do crânio de cavalos. Eles estão conversando e aparentemente se divertindo enquanto recolhem as frutas. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -377,10 +377,10 @@ Você espeta a arvore com uma este metálica presa em um equipamento e começa a
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rio-P3-UNC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-wS-1Yy">
-                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <rect key="frame" x="20" y="629" width="374" height="183"/>
                                 <string key="text">Porem no momento que você chega mais perto eles acabam te ouvindo e se assustam. Eles começam a falar muito alto em levantam as lanças contra você. 
 
 “Ow ow! Calma!”
@@ -437,10 +437,10 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-kA-LoD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZW9-LU-UF5">
-                                <rect key="frame" x="20" y="649.66666666666663" width="374" height="162.33333333333337"/>
+                                <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
                                 <string key="text">Você não vai matar criaturas primitivas com uma arma laser, uma das poucas coisas que você ainda pode se orgulhar é de sua sanidade. Então decide abaixar a arma, ao fazer isso você percebe que aparentemente o líder daquele grupo manda os seus companheiros abaixarem as lanças também. Eles começam a falar e você decide ligar seu tradutor universal. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -484,10 +484,10 @@ Você tira a sua arma de laser no coldre e aponta contra eles.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-FV-2r2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="548.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="548.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTJ-Pl-ZG0">
-                                <rect key="frame" x="20" y="568.33333333333337" width="374" height="243.66666666666663"/>
+                                <rect key="frame" x="20" y="568.5" width="374" height="243.5"/>
                                 <string key="text">Eles estão querendo saber quem você é e porquê é tão diferente deles. Você o mais calmo possível e fazendo o menos movimento possível, fala: 
 
 “ Ola pessoal! Tudo bem? Então, eu sou um explorador de uma terra muito muito distante, estou aqui para estudar” 
@@ -535,10 +535,10 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Pg-GAl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4D-Er-B20">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Eles parecem estar muito curiosos, são seres extremamente pacíficos. Eles te saúdam e começam a fazer varias perguntas. Cada vez mais os seres que estavam mais atrás vem se aproximando, então o líder decide perguntar para você se não gostaria de ir até a vila deles. 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -592,7 +592,7 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-qE-J9G">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dk-Xl-M3Y">
                                 <rect key="frame" x="20" y="688" width="374" height="124"/>
@@ -687,10 +687,10 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2D-3T-CoU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-Rq-LWX">
-                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <rect key="frame" x="20" y="629" width="374" height="183"/>
                                 <string key="text">Todos esse tempo que você passou com os seres te fez repensar muito da sua vida e sobre tudo o que você sempre fez para aquele império ridículo… então você decide mandar um falso relatório, dizendo que não havia nada de útil naquele planeta e por fim, nada do que fazia antes faz sentido, então você decide debandar do império e por consequência se torna um exilado. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -734,10 +734,10 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ACp-Kx-CtW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="647.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="647.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-1x-ry5">
-                                <rect key="frame" x="20" y="667.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="667.5" width="374" height="142.5"/>
                                 <string key="text">Você nunca soube o que era paz, desde quando você se lembra, serve o império. Nunca teve família, ou um propósito. Agora você sente a vida realmente correndo pelas suas veias, vivendo naquela pequena vila alienígena.  Fim!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -781,10 +781,10 @@ Você ainda estranha quando fala com o tradutor universal, pois parece ser outra
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uTU-oy-jp9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMc-iL-Aq6">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Você agradece muito o convite porem recusa.
 
 “muito obrigado mas preciso retornar para a minha família, eles sentem minha falta” 
@@ -831,10 +831,10 @@ Eles entendem isso e desenham a você boa sorte e uma boa viagem.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuK-ex-DHz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAw-wG-KDK">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Todos estão te cumprimentando e desenhando boas vibrações quando eles começam a te entregar presentes, frutas, alguns objetos e roupas. Eles são muito pacíficos e bondosos.
 A única coisa que você tem, que conseguiria dar para eles é sua medalha de honra, dada à você pelo general da missão Colonização. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -888,10 +888,10 @@ A única coisa que você tem, que conseguiria dar para eles é sua medalha de ho
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x74-cR-v98">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="690.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="690.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjA-0T-1qi">
-                                <rect key="frame" x="20" y="710.33333333333337" width="374" height="101.66666666666663"/>
+                                <rect key="frame" x="20" y="710.5" width="374" height="101.5"/>
                                 <string key="text">Você guarda sua medalha, recusa os presentes porem agradece muito a cordialidade deles. Volta para sua nave para terminar o relatório. Você nunca tinha demorado tanto tempo para finalizar um relatório como dessa vez. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -985,10 +985,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vvm-13-jTc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVd-42-C3G">
-                                <rect key="frame" x="20" y="649.66666666666663" width="374" height="162.33333333333337"/>
+                                <rect key="frame" x="20" y="649.5" width="374" height="162.5"/>
                                 <string key="text">Você retribui os presentes dados por eles, entrega a antiga medalha de honra na mão do chefe da vila, agradece muito a atenção deles e parte para a sua nave, porém ao chegar nela decide falsificar o relatório e enviar dados que diziam que o planeta era pobre em minerais uteis. 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1033,10 +1033,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P4b-nf-Q2i">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="609.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwj-MG-2UK">
-                                <rect key="frame" x="20" y="629.33333333333337" width="374" height="182.66666666666663"/>
+                                <rect key="frame" x="20" y="629" width="374" height="183"/>
                                 <string key="text">O relatório acabou de ser enviado, você esta processando alguns dados quando acaba de receber o seu próximo planeta alvo, porém, após tudo o que passou e tudo o que sentiu naquele pequeno planetinha você decide por fim sair do império, mesmo sabendo que será caçado e provavelmente morto, se encontrado pelo império galáctico. Mas ao fim, sua consciência esta completamente limpa… </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1139,10 +1139,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-OH-Oqa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKy-8O-RY8">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Todos esses anos de servidão e tristeza agora se voltam só em uma só coisa, sede por sangue… Você segue o alienígena miserável até a sua tribo, chegando la, o caos é instaurado. Um verdadeiro apocalipse para aqueles seres, e você pode, nesse momento, se intitular como um de seus cavaleiros. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1186,10 +1186,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-5x-tjc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-nG-0GL">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Após algumas horas aquela vila nojenta esta em chamas, tudo esta destruído e você nunca esteve tão vivo, você então parte a diante, procurando mais daqueles seres primitivos para ceifar. Com o passar do tempo, você se tornou uma lenda naquele povo, uma espécie de demônio. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1280,10 +1280,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alG-wr-DaB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-DK-5H5">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">Você é profissional, acabou de ter um deslize inaceitável e que provavelmente ira trazer alguma punição, você retorna para sua nave, sai daquela região e termina sua missão o mais rápido possível. Ao enviar seu relatório você evita informa o ocorrido, que diferença vai fazer alguns nativos mortos… eles vão destruir tudo. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1327,10 +1327,10 @@ Nesse momento, na imensidão negra do espaço, vemos somente um brilho verde ema
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u35-Rs-FPk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.66666666666663"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="649.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlg-nM-Enm">
-                                <rect key="frame" x="20" y="669.66666666666663" width="374" height="142.33333333333337"/>
+                                <rect key="frame" x="20" y="669.5" width="374" height="142.5"/>
                                 <string key="text">A primeira diretriz e mais essencial de todas é a de contato, ela diz “ não se aproxime de seres que ainda não descobriram a viagem intergaláctica, ao se deparar com esse caso, de meia volta.”
 Então você decide dar meia volta e prosseguir à diante com a sua missão.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1519,7 +1519,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 5 - ignoprar" translatesAutoresizingMaskIntoConstraints="NO" id="Mlo-vi-wdy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 5 - ignoprar" highlightedImage="tela 5 - ignoprar" translatesAutoresizingMaskIntoConstraints="NO" id="Mlo-vi-wdy">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="917"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1565,7 +1565,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 3 pedras" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-5x-ndg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela 3 pedras" highlightedImage="tela 3 pedras" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-5x-ndg">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="762"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1578,7 +1578,7 @@ Então você decide dar meia volta e prosseguir à diante com a sua missão.</st
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYX-Ku-tsC">
-                                <rect key="frame" x="20" y="568.33333333333337" width="374" height="243.66666666666663"/>
+                                <rect key="frame" x="20" y="568.5" width="374" height="243.5"/>
                                 <string key="text">Você decide começar a examinas pedras, tentar descobrir quais elementos consegue encontrar naquele planeta. Você se aproxima de algumas rochas alaranjadas, provavelmente ferro.
 
 “Vamos às pedras logo… é sempre isso que procuram mesmo… metais ridículos para fazer naves ridículas…”
@@ -1607,7 +1607,7 @@ Se aproximando de algumas pedras você puxa um equipamento e começa a escanear 
         </scene>
     </scenes>
     <resources>
-        <image name="tela 2" width="750" height="1624"/>
+        <image name="tela 2" width="1687.5" height="3654"/>
         <image name="tela 3 pedras" width="1125" height="2436"/>
         <image name="tela 3 plantas" width="1125" height="2436"/>
         <image name="tela 4" width="1125" height="2436"/>

@@ -16,30 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var backGroundPlayers = AVAudioPlayer()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+         playSound()
         // Override point for customization after application launch.
         return true
     }
     
-    func playBackGroundMusic (fileNamed: String){
+    var player: AVAudioPlayer?
+    
+    func playSound() {
+        guard let url = Bundle.main.url(forResource: "Ether_Oar", withExtension: "mp3") else { return }
         
-        let url = Bundle.main.url(forResource: fileNamed,
-                                  withExtension: nil)
-        guard let newUrl = url else{
-            
-            print("Could not find filed called \(fileNamed)")
-            return
-        }
         do {
-            backGroundPlayers = try AVAudioPlayer(contentsOf: newUrl)
-            backGroundPlayers.numberOfLoops = -1
-            backGroundPlayers.prepareToPlay()
-            backGroundPlayers.play()
-        }
-        catch let error as NSError {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
             
-            print(error.description)
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            /* iOS 10 and earlier require the following line:
+             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+            
+            guard let player = player else { return }
+            
+            player.play()
+            
+        } catch let error {
+            print(error.localizedDescription)
         }
-        playBackGroundMusic(fileNamed: "Ether_Oar.mp3")
     }
     
     
